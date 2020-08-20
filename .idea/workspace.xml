@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="View:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbfe4058-54ba-4d74-a071-7591c4de675c" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0e7c1adc-40b1-4474-985d-e9bb63828aeb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/dao/PlushGoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/dao/PlushGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/pojo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/pojo/PlushGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/pojo/UAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/tools/MailTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/src/main/java/tools/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/dao/AccountMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/dao/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/dao/PlushGoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/dao/PlushGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/pojo/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/pojo/PlushGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/pojo/UAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/service/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/service/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/service/PlushGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/service/PlushGoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/tools/MailTo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/target/classes/tools/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/java/controller/BackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/java/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/java/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/about.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/401.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/charts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/layout-sidenav-light.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/layout-static.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/layoutSidenav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/tables.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/blog-home-1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/blog-home-2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/blog-post.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/contact.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/faq.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/full-width.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/configError.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/configReg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/portfolio-1-col.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/portfolio-2-col.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/portfolio-3-col.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/portfolio-4-col.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/portfolio-item.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/pricing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/services.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/sidebar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/admin/assets/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/admin/assets/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/admin/assets/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/admin/assets/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/admin/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/admin/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/admin/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/css/modern-business.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/MobileApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/Slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/Slide2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/Slide3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/gpn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/gpn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/gpn3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/gpn4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/gpn5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/gpn6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/gpn7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/gpn8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/partner1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/partner2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/partner3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/partner4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/partner5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/partner6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/pink-dot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/image/pusheen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/js/contact_me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/js/jqBootstrapValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/css/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/themify-icons/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/themify-icons/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/themify-icons/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/fonts/themify-icons/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/img_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/img_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/img_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/img_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/img_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/img_bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/img_bg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/img_bg_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/macbook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/person_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/person_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/images/person_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/jquery.countTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/magnific-popup-options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/modernizr-2.6.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/loginPage/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/mail/contact_me.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/controller/BackController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/about.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/401.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/charts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/layout-sidenav-light.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/layout-static.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/layoutSidenav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/admin/tables.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/blog-home-1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/blog-home-2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/blog-post.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/contact.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/faq.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/full-width.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/loginPage/configError.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/loginPage/configReg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/loginPage/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/portfolio-1-col.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/portfolio-2-col.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/portfolio-3-col.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/portfolio-4-col.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/portfolio-item.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/pricing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/services.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/jsp/sidebar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/Other-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/UserAgentUtils-1.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/classmate-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/commons-lang3-3.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/fastjson-1.2.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/guava-19.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/jackson-annotations-2.8.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/jackson-core-2.8.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/jackson-databind-2.8.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/jedis-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/mail-1.4.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/mapstruct-jdk8-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/mybatis-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/mysql-connector-java-5.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/slf4j-api-1.7.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/slf4j-log4j12-1.7.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-aspects-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-context-support-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/springfox-core-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/springfox-schema-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/springfox-spi-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/springfox-spring-web-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/springfox-swagger-common-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/springfox-swagger-ui-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/springfox-swagger2-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/swagger-annotations-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/swagger-models-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/admin/assets/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/admin/assets/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/admin/assets/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/admin/assets/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/admin/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/admin/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/admin/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/css/modern-business.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/MobileApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/Slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/Slide2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/Slide3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/gpn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/gpn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/gpn3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/gpn4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/gpn5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/gpn6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/gpn7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/gpn8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/partner1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/partner2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/partner3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/partner4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/partner5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/partner6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/pink-dot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/image/pusheen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/js/contact_me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/js/jqBootstrapValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/css/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/themify-icons/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/themify-icons/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/themify-icons/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/fonts/themify-icons/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/img_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/img_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/img_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/img_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/img_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/img_bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/img_bg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/img_bg_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/macbook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/person_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/person_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/images/person_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/jquery.countTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/magnific-popup-options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/modernizr-2.6.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/loginPage/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/mail/contact_me.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/View/static/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/classes/controller/BackController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/classes/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/classes/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebShop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/View/target/" />
+    <ignored path="$PROJECT_DIR$/Other/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="webshop: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="webshop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="account: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="webshop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="admin: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="webshop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="plushgoods: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="webshop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="uaddress: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-478">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#3549#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Other/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/BackController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#438#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="e#0#1079#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="e#0#1618#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/MailTo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#2848#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/View/pom.xml" />
+        <option value="$PROJECT_DIR$/View/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/View/src/main/java/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/pojo/Account.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/pojo/Admin.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/pojo/PlushGoods.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/pojo/UAddress.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/dao/PlushGoodsMapper.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/service/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsService.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/tools/Page.java" />
+        <option value="$PROJECT_DIR$/Other/src/main/java/tools/MailTo.java" />
+        <option value="$PROJECT_DIR$/View/src/main/java/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/View/src/main/java/controller/BackController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Other/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\environment\maven-resp" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx1024m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Other" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Other" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=local" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Other/src/main/java/dao" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.20173268" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_project\Other\WebShop\Other\src\main\java\dao" />
+      <recent name="D:\java_project\Other\WebShop\View\src\main\webapp\WEB-INF" />
+      <recent name="D:\java_project\Other\WebShop\View\src\main\webapp" />
+      <recent name="D:\java_project\Other\WebShop\View\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java_project\Other\WebShop\View\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="View:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_WebShop" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56268" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="View:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbfe4058-54ba-4d74-a071-7591c4de675c" name="默认更改列表" comment="" />
+      <created>1597901775440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597901775440</updated>
+      <workItem from="1597901777945" duration="606000" />
+      <workItem from="1597902428419" duration="985000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1591000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Learn" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="设计器" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32929516" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30952382" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="调试" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.15335463" />
+      <window_info anchor="right" id="调色板" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.18799546" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/View/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/static/js/contact_me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#76#83#1" expanded="true" />
+            <element signature="e#76#83#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/pojo/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#1404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/pojo/PlushGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#0#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/pojo/UAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0e7c1adc-40b1-4474-985d-e9bb63828aeb/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/PlushGoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#1079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#1618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/MailTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#2848#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/BackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-478">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#3549#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>View</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
