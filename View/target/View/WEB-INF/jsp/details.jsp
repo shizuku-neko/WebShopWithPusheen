@@ -23,14 +23,14 @@
     <!-- Page Heading/Breadcrumbs -->
     <h1 class="mt-4 mb-3"
         style="font-family: Roboto, Helvetica, Arial, sans-serif; margin-top: 0; font-size: 2.25rem; font-weight: 700;">
-        ${ list.gName }
+        Settlement
     </h1>
 
     <ol class="breadcrumb">
         <li class="breadcrumb-item">
             <a href="index">Home</a>
         </li>
-        <li class="breadcrumb-item active">${ list.gId }</li>
+        <li class="breadcrumb-item active">Settlement</li>
     </ol>
 
     <div class="row">

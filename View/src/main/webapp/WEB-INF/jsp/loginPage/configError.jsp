@@ -13,6 +13,7 @@
 <body>
 <div style="text-align: center">
     <h1>验证码已过期/验证码失效!</h1>
+    <a href="index">返回主页</a>
 </div>
 </body>
 </html>

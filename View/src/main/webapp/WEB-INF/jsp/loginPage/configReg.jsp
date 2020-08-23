@@ -8,6 +8,7 @@
 <body>
 <div style="text-align: center">
     <h1>邮箱验证成功!</h1>
+    <a href="index">返回主页</a>
 </div>
 </body>
 </html>

@@ -30,7 +30,7 @@ public class AccountServiceImpl implements AccountService {
         return this.accountMapper.InsertRegUser(uName, uEmail, uPwd);
     }
 
-    public int SelectLoginUser(String uEmail, String uPwd) {
+    public Integer SelectLoginUser(String uEmail, String uPwd) {
         return this.accountMapper.SelectLoginUser(uEmail, uPwd);
     }
 }

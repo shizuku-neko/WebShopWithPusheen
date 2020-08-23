@@ -21,7 +21,7 @@
     </insert>
 
     <select id="SelectLoginUser" resultType="int">
-        SELECT UId
+        SELECT count(UId)
         from webshop.account
         WHERE UEmail = #{ uEmail }
           and UPwd = #{ uPwd }

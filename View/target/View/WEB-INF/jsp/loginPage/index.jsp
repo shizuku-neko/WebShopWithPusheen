@@ -98,29 +98,29 @@
                                                 <form action="<%=basePath%>reg" method="post">
                                                     <div class="row form-group">
                                                         <div class="col-md-12">
-                                                            <label for="uName">UserName</label>
-                                                            <input type="text" class="form-control" id="uName"
-                                                                   name="uName">
+                                                            <label for="RName">UserName</label>
+                                                            <input type="text" class="form-control" id="RName"
+                                                                   name="RName">
                                                         </div>
                                                     </div>
                                                     <div class="row form-group">
                                                         <div class="col-md-12">
-                                                            <label for="uEmail">Email</label>
-                                                            <input type="text" class="form-control" id="uEmail"
-                                                                   name="uEmail">
+                                                            <label for="REmail">Email</label>
+                                                            <input type="text" class="form-control" id="REmail"
+                                                                   name="REmail">
                                                         </div>
                                                     </div>
                                                     <div class="row form-group">
                                                         <div class="col-md-12">
-                                                            <label for="uPwd">Password</label>
-                                                            <input type="password" class="form-control" id="uPwd"
-                                                                   name="uPwd">
+                                                            <label for="RPwd">Password</label>
+                                                            <input type="password" class="form-control" id="RPwd"
+                                                                   name="RPwd">
                                                         </div>
                                                     </div>
                                                     <div class="row form-group">
                                                         <div class="col-md-12">
-                                                            <label for="uPwdConfig">Repeat Password</label>
-                                                            <input type="password" class="form-control" id="uPwdConfig">
+                                                            <label for="RPwdConfig">Repeat Password</label>
+                                                            <input type="password" class="form-control" id="RPwdConfig">
                                                         </div>
                                                     </div>
 
@@ -137,16 +137,16 @@
                                                 <form action="<%=basePath%>login" method="post">
                                                     <div class="row form-group">
                                                         <div class="col-md-12">
-                                                            <label for="uEmail">Email</label>
-                                                            <input type="text" class="form-control" id="uEmail"
-                                                                   name="uName">
+                                                            <label for="LEmail">Email</label>
+                                                            <input type="text" class="form-control" id="LEmail"
+                                                                   name="LEmail">
                                                         </div>
                                                     </div>
                                                     <div class="row form-group">
                                                         <div class="col-md-12">
-                                                            <label for="uPwd">Password</label>
-                                                            <input type="password" class="form-control" id="uPwd"
-                                                                   name="uPwd">
+                                                            <label for="LPwd">Password</label>
+                                                            <input type="password" class="form-control" id="LPwd"
+                                                                   name="LPwd">
                                                         </div>
                                                     </div>
 

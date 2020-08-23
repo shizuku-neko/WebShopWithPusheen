@@ -8,7 +8,6 @@ package controller;
 import org.apache.commons.codec.binary.Base64;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import pojo.Account;
 import service.AccountService;
 
 import javax.annotation.Resource;
@@ -17,6 +16,7 @@ import javax.crypto.Mac;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
@@ -41,12 +41,10 @@ public class LoginController {
     }
 
     @RequestMapping({"reg"})
-    public String Reg(Account account, HttpServletRequest request) throws NoSuchAlgorithmException, InvalidKeyException {
-        String uName = account.getuName();
-        String uEmail = account.getuEmail();
-        String uPwd = account.getuPwd();
-        int result = this.accountService.InsertRegUser(uName, uEmail, uPwd);
+    public String Reg(String RName, String REmail, String RPwd, HttpServletRequest request, HttpSession session) throws NoSuchAlgorithmException, InvalidKeyException {
+        int result = this.accountService.InsertRegUser(RName, REmail, RPwd);
         if (result != 0) {
+            session.setAttribute("uEmail", REmail);
             request.setAttribute("msg", "Registration is successful, please confirm the email to complete the last step of registration");
             return "index";
         } else {
@@ -56,16 +54,15 @@ public class LoginController {
     }
 
     @RequestMapping({"login"})
-    public String loginIn(Account account, HttpServletRequest request) {
-        String uEmail = account.getuEmail();
-        String uPwd = account.getuPwd();
-        int result = this.accountService.SelectLoginUser(uEmail, uPwd);
+    public String loginIn(String LEmail, String LPwd, HttpServletRequest request, HttpSession session) {
+        int result = this.accountService.SelectLoginUser(LEmail, LPwd);
         if (result != 0) {
+            session.setAttribute("uEmail", LEmail);
             request.setAttribute("msg", "Successful login, redirecting");
             return "index";
         } else {
             request.setAttribute("msg", "Login failed, wrong email or password");
-            return "loginPage/index";
+            return "loginPage";
         }
     }
 
