@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <body>
 
 <!-- Navigation -->
-<%@ include file="navbar.jsp"%>
+<%@ include file="navbar.jsp" %>
 
 <!-- Page Content -->
 <div class="container">
@@ -35,8 +35,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <!-- Project One -->
     <div class="row">
         <div class="col-md-4">
-            <a href="#" >
-                <img class="img-fluid rounded mb-3 mb-md-0" style="width: 400px" src="http://placehold.it/700x300" alt="">
+            <a href="#">
+                <img class="img-fluid rounded mb-3 mb-md-0" style="width: 400px" src="http://placehold.it/700x300"
+                     alt="">
             </a>
         </div>
         <div class="col-md-8">
@@ -57,7 +58,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div class="row">
         <div class="col-md-4">
             <a href="#">
-                <img class="img-fluid rounded mb-3 mb-md-0" style="width: 400px" src="http://placehold.it/700x300" alt="">
+                <img class="img-fluid rounded mb-3 mb-md-0" style="width: 400px" src="http://placehold.it/700x300"
+                     alt="">
             </a>
         </div>
         <div class="col-md-8">
@@ -78,7 +80,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div class="row">
         <div class="col-md-4">
             <a href="#">
-                <img class="img-fluid rounded mb-3 mb-md-0" style="width: 400px" src="http://placehold.it/700x300" alt="">
+                <img class="img-fluid rounded mb-3 mb-md-0" style="width: 400px" src="http://placehold.it/700x300"
+                     alt="">
             </a>
         </div>
         <div class="col-md-8">
@@ -100,7 +103,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
         <div class="col-md-4">
             <a href="#">
-                <img class="img-fluid rounded mb-3 mb-md-0" style="width: 400px" src="http://placehold.it/700x300" alt="">
+                <img class="img-fluid rounded mb-3 mb-md-0" style="width: 400px" src="http://placehold.it/700x300"
+                     alt="">
             </a>
         </div>
         <div class="col-md-8">

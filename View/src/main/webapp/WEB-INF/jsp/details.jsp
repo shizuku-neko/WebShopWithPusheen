@@ -23,14 +23,14 @@
     <!-- Page Heading/Breadcrumbs -->
     <h1 class="mt-4 mb-3"
         style="font-family: Roboto, Helvetica, Arial, sans-serif; margin-top: 0; font-size: 2.25rem; font-weight: 700;">
-        ${ list.gName }
+        Settlement
     </h1>
 
     <ol class="breadcrumb">
         <li class="breadcrumb-item">
             <a href="index">Home</a>
         </li>
-        <li class="breadcrumb-item active">${ list.gId }</li>
+        <li class="breadcrumb-item active">Settlement</li>
     </ol>
 
     <div class="row">
@@ -69,9 +69,9 @@
                 &nbsp;</h2>
 
             <div style="">
-                <div align="right"><h3 style="font-size: 3.0rem;">价 格: $${ list.gPrice }</h3></div>
+                <div align="right"><h4 style="font-size: 3.0rem;">Price: $${ list.gPrice }</h4></div>
 
-                <a class="btn btn-lg btn-secondary btn-block" href="#" style="background-color: pink">购 买!</a>
+                <a class="btn btn-lg btn-secondary btn-block" href="#" style="background-color: pink">Buy Now!</a>
             </div>
 
         </div>

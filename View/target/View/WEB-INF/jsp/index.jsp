@@ -1,8 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <body>
 
 <!-- Navigation -->
-<%@ include file="navbar.jsp"%>
+<%@ include file="navbar.jsp" %>
 
 <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -24,51 +24,55 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         </ol>
         <div class="carousel-inner" role="listbox">
             <!-- Slide One - Set the background image for this slide in the line below -->
-            <div class="carousel-item active" style="background-image: url('http://localhost:8080/static/image/Slide3.png')"></div>
-<%--                <div class="carousel-caption d-none d-md-block">--%>
-<%--                    <h3>First Slide</h3>--%>
-<%--                    <p>This is a description for the first slide.</p>--%>
-<%--                </div>--%>
+            <div class="carousel-item active"
+                 style="background-image: url('http://localhost:8080/static/image/Slide3.png')"></div>
+            <%--                <div class="carousel-caption d-none d-md-block">--%>
+            <%--                    <h3>First Slide</h3>--%>
+            <%--                    <p>This is a description for the first slide.</p>--%>
+            <%--                </div>--%>
             <!-- Slide Two - Set the background image for this slide in the line below -->
 
-            <div class="carousel-item" style="background-image: url('http://localhost:8080/static/image/Slide2.png')" onclick="window.open('http://localhost:8080/blog-post');"></div>
-<%--                <div class="carousel-caption d-none d-md-block">--%>
-<%--                    <h3>Second Slide</h3>--%>
-<%--                    <p>This is a description for the second slide.</p>--%>
-<%--                </div>--%>
+            <div class="carousel-item" style="background-image: url('http://localhost:8080/static/image/Slide2.png')"
+                 onclick="window.open('http://localhost:8080/blog-post');"></div>
+            <%--                <div class="carousel-caption d-none d-md-block">--%>
+            <%--                    <h3>Second Slide</h3>--%>
+            <%--                    <p>This is a description for the second slide.</p>--%>
+            <%--                </div>--%>
             <!-- Slide Three - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('http://localhost:8080/static/image/Slide1.png')">
-<%--                <div class="carousel-caption d-none d-md-block">--%>
-<%--                    <h3>Third Slide</h3>--%>
-<%--                    <p>This is a description for the third slide.</p>--%>
-<%--                </div>--%>
+                <%--                <div class="carousel-caption d-none d-md-block">--%>
+                <%--                    <h3>Third Slide</h3>--%>
+                <%--                    <p>This is a description for the third slide.</p>--%>
+                <%--                </div>--%>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
     </div>
 </header>
 
 <!-- Page Content -->
 <div class="container">
 
-<%--    <h1 class="my-4">Welcome to Modern Business</h1>--%>
+    <%--    <h1 class="my-4">Welcome to Modern Business</h1>--%>
 
 
     <!-- Portfolio Section -->
     <h1 style="color: #e2a2af; font-size: 3.5rem">新 品 展 示</h1>
-    <h2 style="overflow: hidden; text-align: center; background-color: transparent; background-image: url(http://localhost:8080/static/image/pink-dot.svg); background-repeat: space; background-size: auto 1em; background-position: 0 50%;">&nbsp;</h2>
+    <h2 style="overflow: hidden; text-align: center; background-color: transparent; background-image: url(http://localhost:8080/static/image/pink-dot.svg); background-repeat: space; background-size: auto 1em; background-position: 0 50%;">
+        &nbsp;</h2>
     <div class="row">
         <c:forEach items="${ list }" var="cc">
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="card h-100">
-                    <a href="details?id=${ cc.gId }"><img class="card-img-top" src="<%=basePath%>static/image/${ cc.gPhoto }" alt=""></a>
+                    <a href="details?id=${ cc.gId }"><img class="card-img-top"
+                                                          src="<%=basePath%>static/image/${ cc.gPhoto }" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="details?id=${ cc.gId }">${ cc.gName }</a>

@@ -4,20 +4,26 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="dao.AccountMapper">
     <select id="SelectConfigVerifyCode" resultType="int">
-        SELECT Verify from webshop.account
+        SELECT Verify
+        from webshop.account
         WHERE Verify = #{ VerifyCode }
     </select>
 
     <update id="InsertVerifyCode">
-        UPDATE webshop.account SET Verify = #{ VerifyCode }
+        UPDATE webshop.account
+        SET Verify = #{ VerifyCode }
         WHERE UEmail = #{ uEmail }
     </update>
 
     <insert id="InsertRegUser">
-        INSERT INTO webshop.account(UName, UEmail, UPwd) VALUES (#{ uName },#{ uEmail },#{ uPwd })
+        INSERT INTO webshop.account(UName, UEmail, UPwd)
+        VALUES (#{ uName }, #{ uEmail }, #{ uPwd })
     </insert>
 
     <select id="SelectLoginUser" resultType="int">
-        SELECT UId from webshop.account WHERE UEmail = #{ uEmail } and UPwd = #{ uPwd }
+        SELECT UId
+        from webshop.account
+        WHERE UEmail = #{ uEmail }
+          and UPwd = #{ uPwd }
     </select>
 </mapper>

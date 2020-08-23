@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +12,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <body>
 
 <!-- Navigation -->
-<%@ include file="navbar.jsp"%>
+<%@ include file="navbar.jsp" %>
 
 <!-- Page Content -->
 <div class="container">
@@ -35,9 +35,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <div class="col-lg-8 mb-4">
             <!-- Embedded Google Map -->
             <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.0704960159314!2d117.1931305239811!3d34.24674475604742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa2be4f9bc4976d2!2z5YyX5aSn6Z2S6bif5Lit5Y2a6L2v5Lu25a2m6Zmi!5e0!3m2!1szh-CN!2sus!4v1597024455370!5m2!1szh-CN!2sus" style="width: 100%; height: 400px; border: 0;"></iframe>
-<%--            <iframe style="width: 100%; height: 400px; border: 0;"--%>
-<%--                    src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>--%>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.0704960159314!2d117.1931305239811!3d34.24674475604742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa2be4f9bc4976d2!2z5YyX5aSn6Z2S6bif5Lit5Y2a6L2v5Lu25a2m6Zmi!5e0!3m2!1szh-CN!2sus!4v1597024455370!5m2!1szh-CN!2sus"
+                    style="width: 100%; height: 400px; border: 0;"></iframe>
+            <%--            <iframe style="width: 100%; height: 400px; border: 0;"--%>
+            <%--                    src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>--%>
         </div>
         <!-- Contact Details Column -->
         <div class="col-lg-4 mb-4">

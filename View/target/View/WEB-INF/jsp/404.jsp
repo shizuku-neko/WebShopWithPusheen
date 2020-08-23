@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String path = request.getContextPath();
-    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +11,7 @@
 <body>
 
 <!-- Navigation -->
-<%@ include file="navbar.jsp"%>
+<%@ include file="navbar.jsp" %>
 
 <!-- Page Content -->
 <div class="container">
@@ -102,7 +102,7 @@
 </div>
 <!-- /.container -->
 
-<%@ include file="footer.jsp"%>
+<%@ include file="footer.jsp" %>
 
 </body>
 
