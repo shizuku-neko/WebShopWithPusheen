@@ -30,7 +30,7 @@ public class LoginController {
     }
 
     @RequestMapping({"loginPage"})
-    public String loginPage() {
+    public String loginPage(Integer gId) {
         return "loginPage/index";
     }
 
@@ -59,10 +59,10 @@ public class LoginController {
         if (result != 0) {
             session.setAttribute("uEmail", LEmail);
             request.setAttribute("msg", "Successful login, redirecting");
-            return "index";
+            return "redirect:/index";
         } else {
             request.setAttribute("msg", "Login failed, wrong email or password");
-            return "loginPage";
+            return "loginPage/index";
         }
     }
 

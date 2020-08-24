@@ -71,7 +71,8 @@
             <div style="">
                 <div align="right"><h4 style="font-size: 3.0rem;">Price: $${ list.gPrice }</h4></div>
 
-                <a class="btn btn-lg btn-secondary btn-block" href="#" style="background-color: pink">Buy Now!</a>
+                <a class="btn btn-lg btn-secondary btn-block" href="shop?id=${ list.gId }"
+                   style="background-color: pink">Buy Now!</a>
             </div>
 
         </div>

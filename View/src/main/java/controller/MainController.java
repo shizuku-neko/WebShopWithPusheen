@@ -9,10 +9,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import pojo.PlushGoods;
 import service.PlushGoodsService;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 @Controller
@@ -25,42 +27,42 @@ public class MainController {
 
     @RequestMapping({"404"})
     public String ErrorPage() {
-        return "404";
+        return "main/404";
     }
 
     @RequestMapping({"about"})
     public String About() {
-        return "about";
+        return "main/about";
     }
 
     @RequestMapping({"blog-home-1"})
     public String BlogH1() {
-        return "blog-home-1";
+        return "main/blog-home-1";
     }
 
     @RequestMapping({"blog-home-2"})
     public String BlogH2() {
-        return "blog-home-2";
+        return "main/blog-home-2";
     }
 
     @RequestMapping({"blog-post"})
     public String BlogP() {
-        return "blog-post";
+        return "main/blog-post";
     }
 
     @RequestMapping({"contact"})
     public String Contact() {
-        return "contact";
+        return "main/contact";
     }
 
     @RequestMapping({"faq"})
     public String Faq() {
-        return "faq";
+        return "main/faq";
     }
 
     @RequestMapping({"full-width"})
     public String FullW() {
-        return "full-width";
+        return "main/full-width";
     }
 
     @RequestMapping({"index"})
@@ -68,12 +70,12 @@ public class MainController {
         List<PlushGoods> list = this.plushGoodsService.listSixPlushGoods();
         System.err.println(((PlushGoods) list.get(0)).getgId() + ((PlushGoods) list.get(0)).getgName() + ((PlushGoods) list.get(0)).getgPhoto() + ((PlushGoods) list.get(0)).getgPrice());
         model.addAttribute("list", list);
-        return "index";
+        return "main/index";
     }
 
     @RequestMapping({"portfolio-1-col"})
     public String Portfolio1() {
-        return "portfolio-1-col";
+        return "main/portfolio-1-col";
     }
 
     @RequestMapping({"portfolio-2-col"})
@@ -89,43 +91,64 @@ public class MainController {
         model.addAttribute("pageIndex", pageIndex);
         model.addAttribute("pageTotal", pageTotal);
         model.addAttribute("count", count);
-        return "portfolio-2-col";
+        return "main/portfolio-2-col";
     }
 
     @RequestMapping({"portfolio-3-col"})
     public String Portfolio3() {
-        return "portfolio-3-col";
+        return "main/portfolio-3-col";
     }
 
     @RequestMapping({"portfolio-4-col"})
     public String Portfolio4() {
-        return "portfolio-4-col";
+        return "main/portfolio-4-col";
     }
 
     @RequestMapping({"portfolio-item"})
     public String PortfolioItem() {
-        return "portfolio-item";
+        return "main/portfolio-item";
     }
 
     @RequestMapping({"pricing"})
     public String Pricing() {
-        return "pricing";
+        return "main/pricing";
     }
 
     @RequestMapping({"services"})
     public String Services() {
-        return "services";
+        return "main/services";
     }
 
     @RequestMapping({"sidebar"})
     public String sidebar() {
-        return "sidebar";
+        return "main/sidebar";
     }
 
     @RequestMapping({"details"})
     public String ToDetails(Integer id, Model model) {
         PlushGoods plushGoods = this.plushGoodsService.selectOne(id);
         model.addAttribute("list", plushGoods);
-        return "details";
+        return "main/details";
     }
+
+    @RequestMapping({"shop"})
+    public String WantToShop(Integer gId, HttpSession session, RedirectAttributes redirectAttributes) {
+        String uEmail = (String) session.getAttribute("uEmail");
+        if (uEmail == null || ("").equals(uEmail)) {
+            return "loginPage/ErrorPageForShop";
+        }
+        return "main/Settlement";
+    }
+
+    @RequestMapping("conformShop")
+    public String ConformShop() {
+
+        return "";
+    }
+
+//    @RequestMapping("ErrorPageForShop")
+//    public String ErrorPageForShop(){
+//
+//        return "loginPage/ErrorPageForShop";
+//    }
 }

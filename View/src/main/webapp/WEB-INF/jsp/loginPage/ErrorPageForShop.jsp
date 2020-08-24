@@ -1,19 +1,19 @@
 <%--
   Created by IntelliJ IDEA.
   User: Shizuku
-  Date: 2020/8/18
-  Time: 16:18
+  Date: 2020/8/24
+  Time: 8:56
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
-    <title>验证码已过期/验证码失效</title>
+    <title>Error</title>
+    <meta http-equiv="refresh" content="3;url=loginPage">
 </head>
+
 <body>
-<div style="text-align: center">
-    <h1>验证码已过期/验证码失效!</h1>
-    <a href="index">返回主页</a>
-</div>
+<h1>please sign in and continue!</h1>
 </body>
 </html>
