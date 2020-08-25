@@ -35,11 +35,11 @@ public class LoginController {
         return "loginPage/index";
     }
 
-    @RequestMapping({"verify"})
-    public String Verify(String verifyCode) {
-        int num = this.accountService.SelectConfigVerifyCode(verifyCode);
-        return num != 0 ? "loginPage/configReg" : "loginPage/configError";
-    }
+//    @RequestMapping({"verify"})
+//    public String Verify(String verifyCode) {
+//        int num = this.accountService.SelectConfigVerifyCode(verifyCode);
+//        return num != 0 ? "loginPage/configReg" : "loginPage/configError";
+//    }
 
     @RequestMapping({"reg"})
     public String Reg(String RName, String REmail, String RPwd, HttpServletRequest request, HttpSession session) throws NoSuchAlgorithmException, InvalidKeyException {

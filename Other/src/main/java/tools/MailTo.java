@@ -35,7 +35,7 @@ public class MailTo {
             String verifyCode = RandomStringUtils.randomAlphanumeric(20);
             System.err.println(verifyCode);
             System.err.println(ToUserEmail);
-            this.accountService.InsertVerifyCode(verifyCode, ToUserEmail);
+//            this.accountService.InsertVerifyCode(verifyCode, ToUserEmail);
             message.setContent("http://localhost:8080/verify/verifyCode?" + verifyCode, "text/html;charset=UTF-8");
             message.setSentDate(new Date());
             message.saveChanges();
