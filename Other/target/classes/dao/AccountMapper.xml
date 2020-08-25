@@ -3,18 +3,6 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="dao.AccountMapper">
-    <select id="SelectConfigVerifyCode" resultType="int">
-        SELECT Verify
-        from webshop.account
-        WHERE Verify = #{ VerifyCode }
-    </select>
-
-    <update id="InsertVerifyCode">
-        UPDATE webshop.account
-        SET Verify = #{ VerifyCode }
-        WHERE UEmail = #{ uEmail }
-    </update>
-
     <insert id="InsertRegUser">
         INSERT INTO webshop.account(UName, UEmail, UPwd)
         VALUES (#{ uName }, #{ uEmail }, #{ uPwd })
