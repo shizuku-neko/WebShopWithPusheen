@@ -18,14 +18,6 @@ public class AccountServiceImpl implements AccountService {
     public AccountServiceImpl() {
     }
 
-    public void InsertVerifyCode(String VerifyCode, String uEmail) {
-        this.accountMapper.InsertVerifyCode(VerifyCode, uEmail);
-    }
-
-    public int SelectConfigVerifyCode(String VerifyCode) {
-        return this.accountMapper.SelectConfigVerifyCode(VerifyCode);
-    }
-
     public int InsertRegUser(String uName, String uEmail, String uPwd) {
         return this.accountMapper.InsertRegUser(uName, uEmail, uPwd);
     }

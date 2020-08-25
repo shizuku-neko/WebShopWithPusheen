@@ -9,6 +9,7 @@ import org.apache.commons.codec.binary.Base64;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import service.AccountService;
+import tools.MailTo2;
 
 import javax.annotation.Resource;
 import javax.crypto.KeyGenerator;
@@ -45,6 +46,8 @@ public class LoginController {
         int result = this.accountService.InsertRegUser(RName, REmail, RPwd);
         if (result != 0) {
             session.setAttribute("uEmail", REmail);
+            MailTo2 mailTo2 = new MailTo2();
+            mailTo2.EmailTo(REmail);
             request.setAttribute("msg", "Registration is successful, please confirm the email to complete the last step of registration");
             return "index";
         } else {
