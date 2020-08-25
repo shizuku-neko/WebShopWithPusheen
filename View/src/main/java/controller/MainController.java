@@ -9,7 +9,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import pojo.PlushGoods;
 import service.PlushGoodsService;
 
@@ -132,11 +131,14 @@ public class MainController {
     }
 
     @RequestMapping({"shop"})
-    public String WantToShop(Integer gId, HttpSession session, RedirectAttributes redirectAttributes) {
+    public String WantToShop(Integer id, HttpSession session, Model model) {
         String uEmail = (String) session.getAttribute("uEmail");
         if (uEmail == null || ("").equals(uEmail)) {
             return "loginPage/ErrorPageForShop";
         }
+        PlushGoods plushGoods = this.plushGoodsService.selectOne(id);
+        System.err.println(plushGoods.getgIntroduction());
+        model.addAttribute("list", plushGoods);
         return "main/Settlement";
     }
 

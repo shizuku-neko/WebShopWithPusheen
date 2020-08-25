@@ -14,6 +14,6 @@
 </head>
 
 <body>
-<h1>please sign in and continue!</h1>
+<h1>please sign in</h1>
 </body>
 </html>
