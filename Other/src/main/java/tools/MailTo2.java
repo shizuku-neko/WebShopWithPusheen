@@ -1,6 +1,8 @@
 package tools;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisShardInfo;
 import service.AccountService;
 
 import javax.annotation.Resource;
@@ -13,6 +15,10 @@ import java.util.Properties;
 public class MailTo2 {
     @Resource
     AccountService accountService;
+
+    private Jedis jedis;
+
+    private JedisShardInfo info = new JedisShardInfo("127.0.0.1", 6379);
 
     public void EmailTo(String uEmail) {
 
@@ -51,6 +57,11 @@ public class MailTo2 {
             message.setContent("请点击下方链接以验证您的邮箱,如果不是您本人注册,请忽略.", "text/html;charset=UTF-8");
             String verifyCode = RandomStringUtils.randomAlphanumeric(20);
             // 存入redis缓存
+            jedis = new Jedis(info);
+            jedis.select(0);
+            int time = 60 * 15;
+            jedis.set(uEmail, verifyCode, "NX", "EX", time);
+            System.err.println(jedis.get(uEmail) + "jedis");
 
             message.setContent("" +
                     "\n http://localhost:8080/verify/verifyCode?" + verifyCode, "text/html;charset=UTF-8");

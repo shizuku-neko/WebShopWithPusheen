@@ -1,111 +1,36 @@
 package tools;
 
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.ValueOperations;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisPoolConfig;
 
-import java.io.Serializable;
-import java.util.Set;
-import java.util.concurrent.TimeUnit;
+import java.io.IOException;
+import java.util.Properties;
 
 public class RedisUtil {
-    private RedisTemplate<Serializable, Object> redisTemplate;
+    private static JedisPool pool = null;
 
-    /**
-     * 批量删除对应的value
-     *
-     * @param keys
-     */
-    public void remove(final String... keys) {
-        for (String key : keys) {
-            remove(key);
-        }
-    }
-
-    /**
-     * 批量删除key
-     *
-     * @param pattern
-     */
-    public void removePattern(final String pattern) {
-        Set<Serializable> keys = redisTemplate.keys(pattern);
-        if (keys.size() > 0)
-            redisTemplate.delete(keys);
-    }
-
-    /**
-     * 删除对应的value
-     *
-     * @param key
-     */
-    public void remove(final String key) {
-        if (exists(key)) {
-            redisTemplate.delete(key);
-        }
-    }
-
-    /**
-     * 判断缓存中是否有对应的value
-     *
-     * @param key
-     * @return
-     */
-    public boolean exists(final String key) {
-        return redisTemplate.hasKey(key);
-    }
-
-    /**
-     * 读取缓存
-     *
-     * @param key
-     * @return
-     */
-    public Object get(final String key) {
-        Object result = null;
-        ValueOperations<Serializable, Object> operations = redisTemplate.opsForValue();
-        result = operations.get(key);
-        return result;
-    }
-
-    /**
-     * 写入缓存
-     *
-     * @param key
-     * @param value
-     * @return
-     */
-    public boolean set(final String key, Object value) {
-        boolean result = false;
+    static {
+        // 创建一个redis的连接池
+        Properties prop = new Properties();
         try {
-            ValueOperations<Serializable, Object> operations = redisTemplate.opsForValue();
-            operations.set(key, value);
-            result = true;
-        } catch (Exception e) {
+            prop.load(RedisUtil.class.getClassLoader().getResourceAsStream("redis.properties"));
+        } catch (IOException e) {
             e.printStackTrace();
         }
-        return result;
+        JedisPoolConfig poolConfig = new JedisPoolConfig();
+        int maxIdle = new Integer(prop.getProperty("redis.maxIdle"));
+        int minIdle = new Integer(prop.getProperty("redis.minIdle"));
+        int maxTotal = new Integer(prop.getProperty("redis.maxTotal"));
+        poolConfig.setMaxIdle(maxIdle);// 最大闲置个数
+        poolConfig.setMinIdle(minIdle);// 最小闲置个数
+        poolConfig.setMaxTotal(maxTotal);// 最大连接数
+        String host = prop.getProperty("redis.host");
+        int port = new Integer(prop.getProperty("redis.port"));
+        pool = new JedisPool(poolConfig, host, port);
     }
 
-    /**
-     * 写入缓存
-     *
-     * @param key
-     * @param value
-     * @return
-     */
-    public boolean set(final String key, Object value, Long expireTime) {
-        boolean result = false;
-        try {
-            ValueOperations<Serializable, Object> operations = redisTemplate.opsForValue();
-            operations.set(key, value);
-            redisTemplate.expire(key, expireTime, TimeUnit.SECONDS);
-            result = true;
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return result;
-    }
-
-    public void setRedisTemplate(RedisTemplate<Serializable, Object> redisTemplate) {
-        this.redisTemplate = redisTemplate;
+    public static Jedis getJedis() {
+        return pool.getResource();
     }
 }

@@ -49,7 +49,7 @@ public class LoginController {
             MailTo2 mailTo2 = new MailTo2();
             mailTo2.EmailTo(REmail);
             request.setAttribute("msg", "Registration is successful, please confirm the email to complete the last step of registration");
-            return "index";
+            return "redirect:/index";
         } else {
             request.setAttribute("msg", "Error, please contact the webmaster");
             return "loginPage/index";
