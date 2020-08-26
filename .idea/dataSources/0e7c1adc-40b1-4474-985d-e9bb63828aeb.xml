@@ -887,86 +887,92 @@
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="221" parent="207" name="PRIMARY">
+    <column id="221" parent="207" name="Verify">
+      <Position>7</Position>
+      <Comment>是否验证</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="222" parent="207" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>UId</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="222" parent="208" name="AId">
+    <column id="223" parent="208" name="AId">
       <Position>1</Position>
       <Comment>登录用ID</Comment>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="223" parent="208" name="APwd">
+    <column id="224" parent="208" name="APwd">
       <Position>2</Position>
       <Comment>登录用密码</Comment>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="224" parent="209" name="id">
+    <column id="225" parent="209" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="225" parent="209" name="areaid">
+    <column id="226" parent="209" name="areaid">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="226" parent="209" name="area">
+    <column id="227" parent="209" name="area">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="227" parent="209" name="cityid">
+    <column id="228" parent="209" name="cityid">
       <Position>4</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="228" parent="209" name="PRIMARY">
+    <key id="229" parent="209" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="229" parent="210" name="id">
+    <column id="230" parent="210" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="230" parent="210" name="cityid">
+    <column id="231" parent="210" name="cityid">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="231" parent="210" name="city">
+    <column id="232" parent="210" name="city">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="232" parent="210" name="provinceid">
+    <column id="233" parent="210" name="provinceid">
       <Position>4</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="233" parent="210" name="PRIMARY">
+    <key id="234" parent="210" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="234" parent="211" name="GId">
+    <column id="235" parent="211" name="GId">
       <Position>1</Position>
       <Comment>商品ID</Comment>
       <DataType>bigint(20)|0s</DataType>
@@ -974,116 +980,116 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="235" parent="211" name="GName">
+    <column id="236" parent="211" name="GName">
       <Position>2</Position>
       <Comment>商品简介-商品名称</Comment>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="236" parent="211" name="GPhoto">
+    <column id="237" parent="211" name="GPhoto">
       <Position>3</Position>
       <Comment>商品简介-图片路径</Comment>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="237" parent="211" name="GPrice">
+    <column id="238" parent="211" name="GPrice">
       <Position>4</Position>
       <Comment>商品价格</Comment>
       <DataType>float|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="238" parent="211" name="GIntroduction">
+    <column id="239" parent="211" name="GIntroduction">
       <Position>5</Position>
       <Comment>商品简介-详细资料</Comment>
       <DataType>varchar(1000)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="239" parent="211" name="GQuantity">
+    <column id="240" parent="211" name="GQuantity">
       <Position>6</Position>
       <Comment>商品简介-剩余数量</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="240" parent="211" name="PRIMARY">
+    <key id="241" parent="211" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>GId</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="241" parent="212" name="id">
+    <column id="242" parent="212" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="242" parent="212" name="provinceid">
+    <column id="243" parent="212" name="provinceid">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="243" parent="212" name="province">
+    <column id="244" parent="212" name="province">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="244" parent="212" name="PRIMARY">
+    <key id="245" parent="212" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="245" parent="213" name="UId">
+    <column id="246" parent="213" name="UId">
       <Position>1</Position>
       <Comment>用户地址.ID/链接用户表</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="246" parent="213" name="UAddress">
+    <column id="247" parent="213" name="UAddress">
       <Position>2</Position>
       <Comment>用户详细地址</Comment>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="247" parent="213" name="UPostcode">
+    <column id="248" parent="213" name="UPostcode">
       <Position>3</Position>
       <Comment>邮编/可为空</Comment>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="248" parent="214" name="id">
+    <column id="249" parent="214" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="249" parent="214" name="areaid">
+    <column id="250" parent="214" name="areaid">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="250" parent="214" name="zip">
+    <column id="251" parent="214" name="zip">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="251" parent="214" name="code">
+    <column id="252" parent="214" name="code">
       <Position>4</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="252" parent="214" name="PRIMARY">
+    <key id="253" parent="214" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

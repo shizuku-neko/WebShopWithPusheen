@@ -56,7 +56,7 @@ public class LoginController {
     }
 
     @RequestMapping({"reg"})
-    public String Reg(String RName, String REmail, String RPwd, HttpServletRequest request, HttpSession session) throws NoSuchAlgorithmException, InvalidKeyException {
+    public String Reg(String RName, String REmail, String RPwd, HttpServletRequest request, HttpSession session) {
         int result = this.accountService.InsertRegUser(RName, REmail, RPwd);
         if (result != 0) {
             session.setAttribute("uEmail", REmail);
