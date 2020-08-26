@@ -25,4 +25,9 @@ public class AccountServiceImpl implements AccountService {
     public Integer SelectLoginUser(String uEmail, String uPwd) {
         return this.accountMapper.SelectLoginUser(uEmail, uPwd);
     }
+
+    @Override
+    public Integer UpdateVerifyUser(String var1) {
+        return this.accountMapper.UpdateVerifyUser(var1);
+    }
 }

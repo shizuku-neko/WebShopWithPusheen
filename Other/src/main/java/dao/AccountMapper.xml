@@ -4,8 +4,8 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="dao.AccountMapper">
     <insert id="InsertRegUser">
-        INSERT INTO webshop.account(UName, UEmail, UPwd)
-        VALUES (#{ uName }, #{ uEmail }, #{ uPwd })
+        INSERT INTO webshop.account(UName, UEmail, UPwd, Verify)
+        VALUES (#{ uName }, #{ uEmail }, #{ uPwd }, 0)
     </insert>
 
     <select id="SelectLoginUser" resultType="int">
@@ -14,4 +14,10 @@
         WHERE UEmail = #{ uEmail }
           and UPwd = #{ uPwd }
     </select>
+
+    <update id="UpdateVerifyUser">
+        UPDATE webshop.account
+        SET Verify = 1
+        WHERE UEmail = #{ uEmail }
+    </update>
 </mapper>

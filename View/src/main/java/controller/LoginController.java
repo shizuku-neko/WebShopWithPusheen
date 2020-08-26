@@ -8,6 +8,8 @@ package controller;
 import org.apache.commons.codec.binary.Base64;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisShardInfo;
 import service.AccountService;
 import tools.MailTo2;
 
@@ -27,6 +29,10 @@ public class LoginController {
     @Resource
     AccountService accountService;
 
+    private Jedis jedis;
+
+    private JedisShardInfo info = new JedisShardInfo("127.0.0.1", 6379);
+
     public LoginController() {
     }
 
@@ -35,11 +41,19 @@ public class LoginController {
         return "loginPage/index";
     }
 
-//    @RequestMapping({"verify"})
-//    public String Verify(String verifyCode) {
-//        int num = this.accountService.SelectConfigVerifyCode(verifyCode);
-//        return num != 0 ? "loginPage/configReg" : "loginPage/configError";
-//    }
+    @RequestMapping({"verify"})
+    public String Verify(String verifyCode, String verifyEmail) {
+        jedis = new Jedis(info);
+        jedis.select(0);
+        String verifyInRedis = jedis.get(verifyEmail);
+        if (verifyCode.equals(verifyInRedis)) {
+            jedis.del(verifyEmail);
+            accountService.UpdateVerifyUser(verifyEmail);
+            return "loginPage/configReg";
+        } else {
+            return "loginPage/configError";
+        }
+    }
 
     @RequestMapping({"reg"})
     public String Reg(String RName, String REmail, String RPwd, HttpServletRequest request, HttpSession session) throws NoSuchAlgorithmException, InvalidKeyException {

@@ -11,4 +11,6 @@ public interface AccountService {
     int InsertRegUser(@Param("uName") String var1, @Param("uEmail") String var2, @Param("uPwd") String var3);
 
     Integer SelectLoginUser(@Param("uEmail") String var1, @Param("uPwd") String var2);
+
+    Integer UpdateVerifyUser(@Param("uEmail") String var1);
 }
