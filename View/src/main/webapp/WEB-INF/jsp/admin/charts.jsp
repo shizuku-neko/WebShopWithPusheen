@@ -34,7 +34,7 @@
                             <tr>
                                 <td>GoodsPhoto:
                                     <div id="localImag">
-                                        <img id="gPhoto" onmouseover="datu()"
+                                        <img type="file" id="gPhoto"
                                              src="<%=basePath%>static/image/${ list.gPhoto }" width="150" height="180"
                                              style="display: block; width: 150px;" alt="">
                                     </div>
@@ -67,7 +67,7 @@
                                     </button>
                                 </td>
                             </tr>
-                            </form>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -141,8 +141,8 @@
         formData.append("gName", $(" input[ id='gName' ]").val());
         formData.append("gPrice", $(" input[ id='gPrice' ]").val());
         formData.append("gIntroduction", $(" input[ id='gIntroduction' ]").val());
-        formData.append("gQuantity", $(" input[ id='gQuantity' ]").val());
-        formData.append("file", $(" input[ id='gPhoto' ]")[0].files[0]);
+        formData.append("gQuantity", $(" input[ id='gQuant  ity' ]").val());
+        formData.append("file", $(" img[ id='gPhoto' ]")[0].img);
         if (formData.get("file") == null || formData.get("file") == "") {
             formData.delete("file");
         }
@@ -167,5 +167,6 @@
                 }
             }
         });
+    }
 </script>
 </html>
