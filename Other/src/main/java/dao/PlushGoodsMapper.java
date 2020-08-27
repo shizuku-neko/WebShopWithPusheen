@@ -5,6 +5,7 @@
 
 package dao;
 
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Param;
 import pojo.PlushGoods;
 
@@ -20,4 +21,11 @@ public interface PlushGoodsMapper {
     int getPlushGoodsCount();
 
     PlushGoods selectOne(@Param("id") Integer var1);
+
+    Integer insertPlushGoods(PlushGoods plushGoods);
+
+    Integer updatePlushGoods(PlushGoods plushGoods);
+
+    @Delete("DELETE FROM webShop.plushGoods WHERE GId = #{ id } ")
+    Integer deletePlushGoods(@Param("id") Integer var1);
 }

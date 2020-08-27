@@ -19,4 +19,10 @@ public interface PlushGoodsService {
     int getPlushGoodsCount();
 
     List<PlushGoods> listAllPlushGoods();
+
+    Integer insertPlushGoods(PlushGoods plushGoods);
+
+    Integer updatePlushGoods(PlushGoods plushGoods);
+
+    Integer deletePlushGoods(Integer var1);
 }

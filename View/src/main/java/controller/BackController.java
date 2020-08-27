@@ -79,4 +79,18 @@ public class BackController {
         model.addAttribute("list", list);
         return "admin/tables";
     }
+
+    @RequestMapping({"toUpdate"})
+    public String toUpdate(Integer gId, Model model) {
+        PlushGoods plushGoods = this.plushGoodsService.selectOne(gId);
+        model.addAttribute("list", plushGoods);
+        return "admin/charts";
+    }
+
+    @RequestMapping({"update"})
+    public String update(PlushGoods plushGoods) {
+        this.plushGoodsService.updatePlushGoods(plushGoods);
+        return "admin/tables";
+    }
+
 }

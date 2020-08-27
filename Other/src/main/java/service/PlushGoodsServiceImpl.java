@@ -39,4 +39,19 @@ public class PlushGoodsServiceImpl implements PlushGoodsService {
     public List<PlushGoods> listAllPlushGoods() {
         return this.plushGoodsMapper.listAllPlushGoods();
     }
+
+    @Override
+    public Integer insertPlushGoods(PlushGoods plushGoods) {
+        return this.plushGoodsMapper.insertPlushGoods(plushGoods);
+    }
+
+    @Override
+    public Integer updatePlushGoods(PlushGoods plushGoods) {
+        return this.plushGoodsMapper.updatePlushGoods(plushGoods);
+    }
+
+    @Override
+    public Integer deletePlushGoods(Integer var1) {
+        return this.plushGoodsMapper.deletePlushGoods(var1);
+    }
 }
