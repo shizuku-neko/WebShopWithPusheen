@@ -101,7 +101,7 @@ public class BackController {
 
     @RequestMapping("/updateCouponState")
     @ResponseBody
-    public String updateCoupon(PlushGoods goods, @RequestParam("file") MultipartFile multipartFile, HttpServletRequest request) {
+    public String updateCoupon(PlushGoods goods, @RequestParam("files") MultipartFile multipartFile, HttpServletRequest request) {
         // 判断是否为空
         if (multipartFile.isEmpty()) {
             request.setAttribute("msg", "您没有指定上传文件");

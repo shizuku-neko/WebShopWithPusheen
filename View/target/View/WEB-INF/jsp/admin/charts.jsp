@@ -24,6 +24,7 @@
                 </ol>
                 <div class="card mb-4">
                     <div class="card-body">
+                        <form method="post" enctype="multipart/form-data">
                             <table>
                                 <tr>
                                     <td> ID:<span>${ list.gId }</span></td>
@@ -34,10 +35,12 @@
                                 <tr>
                                     <td>GoodsPhoto:
                                         <div id="localImag">
-                                            <img id="gPhoto" onmouseover="datu()" src="<%=basePath%>static/image/${ list.gPhoto }" width="150" height="180"
-                                                 style="display: block; width: 150px;" alt="" >
+                                            <img type="file" id="files"
+                                                 src="<%=basePath%>static/image/${ list.gPhoto }" width="150" height="180"
+                                                 style="display: block; width: 150px;" alt="">
                                         </div>
-                                        <input type="file" name="file" id="doc" style="width:150px;" onchange="javascript:setImagePreview();">
+                                        <input type="file" name="file" id="doc" style="width:150px;"
+                                               onchange="javascript:setImagePreview();">
                                     </td>
 
                                 </tr>
@@ -45,25 +48,27 @@
                                     <td>GoodsPrice:<input type="text" value="${ list.gPrice }" id="gPrice"></td>
                                 </tr>
                                 <tr>
-                                    <td>GoodsIntroduction:<input type="text" value="${ list.gIntroduction }" id="gIntroduction"></td>
+                                    <td>GoodsIntroduction:<input type="text" value="${ list.gIntroduction }"
+                                                                 id="gIntroduction"></td>
                                 </tr>
                                 <tr>
                                     <td>GoodsQuantity:<input type="text" value="${ list.gQuantity }" id="gQuantity"></td>
                                 </tr>
                                 <tr>
                                     <td>
-                                    <button type="button"
-                                            class="btn btn-secondary"
-                                            onclick="goBack()">
-                                        Close And Back
-                                    </button>
-                                    <button type="button"
-                                            class="btn btn-primary"
-                                            onclick="updateData(${ list.gId })">
-                                        Save Change
-                                    </button>
+                                        <button type="button"
+                                                class="btn btn-secondary"
+                                                onclick="goBack()">
+                                            Close And Back
+                                        </button>
+                                        <button type="button"
+                                                class="btn btn-primary"
+                                                onclick="updateData(${ list.gId })">
+                                            Save Change
+                                        </button>
                                     </td>
                                 </tr>
+                            </table>
                         </form>
                     </div>
                 </div>
@@ -99,9 +104,9 @@
     }
 
     function setImagePreview(avalue) {
-        var docObj=document.getElementById("doc");
-        var imgObjPreview=document.getElementById("preview");
-        if(docObj.files &&docObj.files[0]){
+        var docObj = document.getElementById("doc");
+        var imgObjPreview = document.getElementById("preview");
+        if (docObj.files && docObj.files[0]) {
             //火狐下，直接设img属性
             imgObjPreview.style.display = 'block';
             imgObjPreview.style.width = '150px';
@@ -110,8 +115,7 @@
 
             //火狐7以上版本不能用上面的getAsDataURL()方式获取，需要一下方式
             imgObjPreview.src = window.URL.createObjectURL(docObj.files[0]);
-        }
-        else{
+        } else {
             //IE下，使用滤镜
             docObj.select();
             var imgSrc = document.selection.createRange().text;
@@ -120,11 +124,10 @@
             localImagId.style.width = "150px";
             localImagId.style.height = "180px";
             //图片异常的捕捉，防止用户修改后缀来伪造图片
-            try{
-                localImagId.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale)";
+            try {
+                localImagId.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale)";
                 localImagId.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = imgSrc;
-            }
-            catch(e){
+            } catch (e) {
                 alert("您上传的图片格式不正确，请重新选择!");
                 return false;
             }
@@ -140,9 +143,9 @@
         formData.append("gName", $(" input[ id='gName' ]").val());
         formData.append("gPrice", $(" input[ id='gPrice' ]").val());
         formData.append("gIntroduction", $(" input[ id='gIntroduction' ]").val());
-        formData.append("gQuantity", $(" input[ id='gQuantity' ]").val());
-        formData.append("file", $(" input[ id='gPhoto' ]")[0].files[0]);
-        if(formData.get("file") == null || formData.get("file") == ""){
+        formData.append("gQuantity", $(" input[ id='gQuant  ity' ]").val());
+        formData.append("files", $(" img[ id='files' ]")[0].img);
+        if (formData.get("files") == null || formData.get("files") == "") {
             formData.delete("file");
         }
         // var $goodsName = $(" input[ id='goodsName' ]").val();
@@ -166,5 +169,6 @@
                 }
             }
         });
+    }
 </script>
 </html>

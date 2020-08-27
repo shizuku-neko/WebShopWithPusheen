@@ -24,50 +24,54 @@
                 </ol>
                 <div class="card mb-4">
                     <div class="card-body">
-                        <table>
-                            <tr>
-                                <td> ID:<span>${ list.gId }</span></td>
-                            </tr>
-                            <tr>
-                                <td>GoodsName:<input type="text" value="${ list.gName }" id="gName"></td>
-                            </tr>
-                            <tr>
-                                <td>GoodsPhoto:
-                                    <div id="localImag">
-                                        <img type="file" id="gPhoto"
-                                             src="<%=basePath%>static/image/${ list.gPhoto }" width="150" height="180"
-                                             style="display: block; width: 150px;" alt="">
-                                    </div>
-                                    <input type="file" name="file" id="doc" style="width:150px;"
-                                           onchange="javascript:setImagePreview();">
-                                </td>
+                        <form method="post" enctype="multipart/form-data">
+                            <table>
+                                <tr>
+                                    <td> ID:<span>${ list.gId }</span></td>
+                                </tr>
+                                <tr>
+                                    <td>GoodsName:<input type="text" value="${ list.gName }" id="gName"></td>
+                                </tr>
+                                <tr>
+                                    <td>GoodsPhoto:
+                                        <div id="localImag">
+                                            <img type="file" id="files"
+                                                 src="<%=basePath%>static/image/${ list.gPhoto }" width="150"
+                                                 height="180"
+                                                 style="display: block; width: 150px;" alt="">
+                                        </div>
+                                        <input type="file" name="file" id="doc" style="width:150px;"
+                                               onchange="javascript:setImagePreview();">
+                                    </td>
 
-                            </tr>
-                            <tr>
-                                <td>GoodsPrice:<input type="text" value="${ list.gPrice }" id="gPrice"></td>
-                            </tr>
-                            <tr>
-                                <td>GoodsIntroduction:<input type="text" value="${ list.gIntroduction }"
-                                                             id="gIntroduction"></td>
-                            </tr>
-                            <tr>
-                                <td>GoodsQuantity:<input type="text" value="${ list.gQuantity }" id="gQuantity"></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <button type="button"
-                                            class="btn btn-secondary"
-                                            onclick="goBack()">
-                                        Close And Back
-                                    </button>
-                                    <button type="button"
-                                            class="btn btn-primary"
-                                            onclick="updateData(${ list.gId })">
-                                        Save Change
-                                    </button>
-                                </td>
-                            </tr>
-                        </table>
+                                </tr>
+                                <tr>
+                                    <td>GoodsPrice:<input type="text" value="${ list.gPrice }" id="gPrice"></td>
+                                </tr>
+                                <tr>
+                                    <td>GoodsIntroduction:<input type="text" value="${ list.gIntroduction }"
+                                                                 id="gIntroduction"></td>
+                                </tr>
+                                <tr>
+                                    <td>GoodsQuantity:<input type="text" value="${ list.gQuantity }" id="gQuantity">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button type="button"
+                                                class="btn btn-secondary"
+                                                onclick="goBack()">
+                                            Close And Back
+                                        </button>
+                                        <button type="button"
+                                                class="btn btn-primary"
+                                                onclick="updateData(${ list.gId })">
+                                            Save Change
+                                        </button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -142,8 +146,8 @@
         formData.append("gPrice", $(" input[ id='gPrice' ]").val());
         formData.append("gIntroduction", $(" input[ id='gIntroduction' ]").val());
         formData.append("gQuantity", $(" input[ id='gQuant  ity' ]").val());
-        formData.append("file", $(" img[ id='gPhoto' ]")[0].img);
-        if (formData.get("file") == null || formData.get("file") == "") {
+        formData.append("files", $(" img[ id='files' ]")[0].img);
+        if (formData.get("files") == null || formData.get("files") == "") {
             formData.delete("file");
         }
         // var $goodsName = $(" input[ id='goodsName' ]").val();
