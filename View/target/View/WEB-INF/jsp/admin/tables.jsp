@@ -167,7 +167,9 @@
                                         <td>${ cc.gPrice }</td>
                                         <td>${ cc.gIntroduction }</td>
                                         <td>${ cc.gQuantity }</td>
-                                        <td></td>
+                                        <td>
+                                            <a href="toUpdate?gId=${ cc.gId }">Update</a>
+                                        </td>
                                     </tr>
                                 </c:forEach>
                                 </tbody>

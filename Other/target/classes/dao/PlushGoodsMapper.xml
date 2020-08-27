@@ -32,4 +32,23 @@
         SELECT GId, GName, GPhoto, GPrice, GIntroduction, GQuantity
         FROM webshop.plushgoods
     </select>
+
+    <insert id="insertPlushGoods">
+        INSERT INTO webshop.plushgoods
+            (gname, gphoto, gprice, gintroduction, gquantity)
+        VALUES (#{gname}, #{gphoto}, #{gprice}, #{gintroduction}, #{gquantity})
+    </insert>
+
+    <update id="updatePlushGoods">
+        UPDATE webshop.plushgoods
+        <set>
+            <if test="gName != null and gName != ''">gName = #{ gName } ,</if>
+            <if test="gPhoto != null and gPhoto != ''">gPhoto = #{ gPhoto } ,</if>
+            <if test="gPrice != null and gPrice != ''">gPrice = #{ gPrice } ,</if>
+            <if test="gIntroduction != null and gIntroduction != ''">gIntroduction = #{ gIntroduction } ,</if>
+            <if test="gQuantity != null and gQuantity != ''">gQuantity = #{ gQuantity } ,</if>
+        </set>
+        WHERE
+        id = #{id}
+    </update>
 </mapper>
