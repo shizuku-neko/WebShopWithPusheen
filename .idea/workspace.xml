@@ -7,18 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbfe4058-54ba-4d74-a071-7591c4de675c" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other/src/main/java/tools/LoginMail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/src/main/java/tools/MailTo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Other/src/main/java/tools/RegMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/src/main/java/controller/BackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/View/src/main/java/controller/BackController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/src/main/java/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/View/src/main/java/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/charts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/charts.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/controller/BackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/controller/BackController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/target/classes/controller/BackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/View/target/classes/controller/BackController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/View/target/classes/spring-mvc.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/LoginMail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="60" column="60" lean-forward="true" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+            <state relative-caret-position="232">
+              <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1160#1383#0" expanded="true" />
@@ -128,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/BackController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="873">
-              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+              <caret line="152" selection-start-line="152" selection-end-line="152" />
             </state>
           </provider>
         </entry>
@@ -138,15 +128,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/src/main/resources/redis.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -163,13 +144,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+            <state relative-caret-position="328">
+              <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1110#1111#0" expanded="true" />
                 <element signature="e#1150#1151#0" expanded="true" />
+                <element signature="method#initMacKey#0;class#LoginController#0" />
+                <element signature="method#encryptHMAC#0;class#LoginController#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="749">
+              <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -177,21 +169,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/AccountServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+            <state relative-caret-position="72">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#759#760#0" expanded="true" />
                 <element signature="e#823#824#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/configError.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -434,63 +418,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="loginPage" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -658,7 +585,7 @@
       <workItem from="1598248581032" duration="10325000" />
       <workItem from="1598322293479" duration="3267000" />
       <workItem from="1598337251477" duration="21014000" />
-      <workItem from="1598489889503" duration="25141000" />
+      <workItem from="1598489889503" duration="26222000" />
     </task>
     <task id="LOCAL-00001" summary="half">
       <created>1597903543656</created>
@@ -779,17 +706,31 @@
       <option name="project" value="LOCAL" />
       <updated>1598516907802</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Test">
+      <created>1598756698756</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1598756698756</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Test">
+      <created>1598757034148</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598757034148</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80800000" />
+    <option name="totallyTimeSpent" value="81881000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="22" width="1936" height="993" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.40329835" visible="true" weight="0.157082" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40329835" visible="true" weight="0.157082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973376" />
       <window_info id="Learn" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -819,7 +760,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.13312034" />
       <window_info anchor="right" id="调色板" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.13631523" />
+      <window_info active="true" anchor="right" id="Database" order="5" visible="true" weight="0.1368477" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.32960597" />
     </layout>
@@ -906,13 +847,6 @@
     <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/package.json" />
     <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="102" column="78" selection-start-line="102" selection-start-column="78" selection-end-line="102" selection-end-column="78" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/ErrorPageForShop.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1193,17 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-          <folding>
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1221,29 +1144,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/LoginMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="60" column="60" lean-forward="true" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1160#1383#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
           <caret line="73" column="78" selection-start-line="73" selection-start-column="78" selection-end-line="73" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/configError.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1257,18 +1161,61 @@
     <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/BackController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="873">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/LoginMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1160#1383#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/configError.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+        <state relative-caret-position="328">
+          <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1110#1111#0" expanded="true" />
             <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="method#initMacKey#0;class#LoginController#0" />
+            <element signature="method#encryptHMAC#0;class#LoginController#0" />
           </folding>
         </state>
       </provider>

@@ -64,7 +64,6 @@ public class LoginController {
         jedis.select(0);
         String verifyInRedis = jedis.get(verifyEmail);
         if (verifyCode.equals(verifyInRedis)) {
-            jedis.del(verifyEmail);
             session.setAttribute("uEmail", verifyEmail);
             request.setAttribute("msg", "Successful login, redirecting");
             return "main/index";
