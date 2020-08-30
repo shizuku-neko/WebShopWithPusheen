@@ -59,15 +59,17 @@ public class LoginController {
     }
 
     @RequestMapping({"loginVerify"})
-    public String LoginVerify(String verifyCode, String verifyEmail, HttpSession session) {
+    public String LoginVerify(String verifyCode, String verifyEmail, HttpSession session, HttpServletRequest request) {
         jedis = new Jedis(info);
         jedis.select(0);
         String verifyInRedis = jedis.get(verifyEmail);
         if (verifyCode.equals(verifyInRedis)) {
             jedis.del(verifyEmail);
             session.setAttribute("uEmail", verifyEmail);
+            request.setAttribute("msg", "Successful login, redirecting");
             return "main/index";
         } else {
+            request.setAttribute("msg", "Login failed, wrong email or password");
             return "loginPage/configError";
         }
     }
