@@ -13,4 +13,6 @@ public interface AccountMapper {
     Integer SelectLoginUser(@Param("uEmail") String var1, @Param("uPwd") String var2);
 
     Integer UpdateVerifyUser(@Param("uEmail") String var1);
+
+
 }

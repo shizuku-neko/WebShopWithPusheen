@@ -36,7 +36,8 @@
                                     <td>GoodsPhoto:
                                         <div id="localImag">
                                             <img type="file" id="files"
-                                                 src="<%=basePath%>static/image/${ list.gPhoto }" width="150" height="180"
+                                                 src="<%=basePath%>static/image/${ list.gPhoto }" width="150"
+                                                 height="180"
                                                  style="display: block; width: 150px;" alt="">
                                         </div>
                                         <input type="file" name="file" id="doc" style="width:150px;"
@@ -52,7 +53,8 @@
                                                                  id="gIntroduction"></td>
                                 </tr>
                                 <tr>
-                                    <td>GoodsQuantity:<input type="text" value="${ list.gQuantity }" id="gQuantity"></td>
+                                    <td>GoodsQuantity:<input type="text" value="${ list.gQuantity }" id="gQuantity">
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>

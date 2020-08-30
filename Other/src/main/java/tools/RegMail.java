@@ -12,7 +12,7 @@ import javax.mail.internet.MimeMessage;
 import java.util.Date;
 import java.util.Properties;
 
-public class MailTo2 {
+public class RegMail {
     @Resource
     AccountService accountService;
 

@@ -43,7 +43,6 @@
                                         <input type="file" name="file" id="doc" style="width:150px;"
                                                onchange="javascript:setImagePreview();">
                                     </td>
-
                                 </tr>
                                 <tr>
                                     <td>GoodsPrice:<input type="text" value="${ list.gPrice }" id="gPrice"></td>

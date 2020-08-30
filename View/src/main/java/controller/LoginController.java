@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisShardInfo;
 import service.AccountService;
-import tools.MailTo2;
+import tools.LoginMail;
+import tools.RegMail;
 
 import javax.annotation.Resource;
 import javax.crypto.KeyGenerator;
@@ -22,6 +23,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
+import java.util.HashMap;
+import java.util.Map;
 
 @Controller
 public class LoginController {
@@ -55,13 +58,36 @@ public class LoginController {
         }
     }
 
+    @RequestMapping({"loginVerify"})
+    public String LoginVerify(String verifyCode, String verifyEmail, HttpSession session) {
+        jedis = new Jedis(info);
+        jedis.select(0);
+        String verifyInRedis = jedis.get(verifyEmail);
+        if (verifyCode.equals(verifyInRedis)) {
+            jedis.del(verifyEmail);
+            session.setAttribute("uEmail", verifyEmail);
+            return "main/index";
+        } else {
+            return "loginPage/configError";
+        }
+    }
+
+    @RequestMapping({"sendLoginMail"})
+    public Object SendLoginMail(String verifyEmail) {
+        LoginMail loginMail = new LoginMail();
+        loginMail.EmailTo(verifyEmail);
+        Map<Object, Object> data = new HashMap<>();
+        data.put("msg", "邮件发送成功");
+        return data;
+    }
+
     @RequestMapping({"reg"})
     public String Reg(String RName, String REmail, String RPwd, HttpServletRequest request, HttpSession session) {
         int result = this.accountService.InsertRegUser(RName, REmail, RPwd);
         if (result != 0) {
             session.setAttribute("uEmail", REmail);
-            MailTo2 mailTo2 = new MailTo2();
-            mailTo2.EmailTo(REmail);
+            RegMail regMail = new RegMail();
+            regMail.EmailTo(REmail);
             request.setAttribute("msg", "Registration is successful, please confirm the email to complete the last step of registration");
             return "redirect:/index";
         } else {

@@ -108,7 +108,7 @@ public class BackController {
         }
 
         // 设置上传文件存放的路径
-        String path = request.getSession().getServletContext().getRealPath("static" + File.separator + "image");
+        String path = request.getSession().getServletContext().getRealPath("../../webapp" + File.separator + "static" + File.separator + "image");
         // 设置允许上传文件的类型
         String[] allowExt = {"jpg", "png", "gif", "jpeg"};
         // 设置允许上传文件的最大字节数
