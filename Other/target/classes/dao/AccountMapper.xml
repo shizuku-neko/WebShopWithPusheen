@@ -34,6 +34,8 @@
     </update>
 
     <select id="SelectSessionUser" resultType="Account">
-        SELECT uid, uname, uemail, upwd, uaddress, ucreditcard, verify  FROM webshop.account WHERE UEmail = #{ uEmail }
+        SELECT uid, uname, uemail, upwd, uaddress, ucreditcard, verify
+        FROM webshop.account
+        WHERE UEmail = #{ uEmail }
     </select>
 </mapper>

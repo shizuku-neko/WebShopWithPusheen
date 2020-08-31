@@ -43,29 +43,43 @@
                     <td>
                         商品Id: ${ pList.gId }
                     </td>
+                </tr>
+                <tr>
                     <td>
                         商品名称: ${ pList.gName }
                     </td>
+                </tr>
+                <tr>
                     <td>
                         商品价格: $${ pList.gPrice }
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="col-lg-3">
-            ! 请认真核对 !
-            地址:
-            <input type="text" placeholder="${ uList.uAddress }">
-            联系方式:
-            <input type="email" placeholder="${ uList.uEmail }">
-            姓名:
-            <input type="text" placeholder="${ uList.uName }">
-        </div>
-        <div class="col-lg-3">
-            支付方式:
-            信用卡号:
-            <input type="number" placeholder="${ uList.uCreditCard }">
-        </div>
+        <form action="conformShop" method="post">
+            <div class="col-lg-6">
+                <div class="col-lg-6">
+                    ! 请认真核对 !
+                    地址:
+                    <input type="text" placeholder="${ uList.uAddress }" name="uAddress">
+                    联系方式:
+                    <input type="email" placeholder="${ uList.uEmail }" name="uEmail">
+                    姓名:
+                    <input type="text" placeholder="${ uList.uName }" name="uName">
+                </div>
+                <div class="col-lg-6">
+                    支付方式:
+                    信用卡号:
+                    <input id="cardNumber" type="text" value="${ uList.uCreditCard }" onblur="jQuery:creditCard()"
+                           name="uCreditCard">
+                    <span id="CardSpan"></span>
+                    <div style="display: none">
+                        <input type="text" name="pId" value="${ pList.gId }">
+                    </div>
+                    <input type="submit" value="提交订单" id="submitInput">
+                </div>
+            </div>
+        </form>
     </div>
     <!-- /.row -->
 
@@ -75,4 +89,43 @@
 <%@ include file="footer.jsp" %>
 
 </body>
+<script>
+    $(document).ready(function () {
+        var $CardNumber = $(" input[ id='cardNumber' ]").val();
+        if ($CardNumber == null) {
+            $("#submitInput").prop('disabled', true);
+        }
+    });
+
+    function creditCard() {
+        var $CardNumber = $(" input[ id='cardNumber' ]").val();
+        if ($CardNumber == null) {
+            $("#submitInput").prop('disabled', true);
+            return;
+        }
+        var formData = new FormData();
+        formData.append("CardNumber", $CardNumber);
+        $.ajax({
+            url: '/CreditCardVerify',
+            type: 'post',
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function (data) {
+                console.log(data);
+                if (num != 1) {
+                    $("#CardSpan").append(
+                        "<p style='color: red'>信用卡号不正确</p>"
+                    );
+                    $("#submitInput").prop('disabled', true);
+                } else {
+                    $("#CardSpan").append(
+                        "<p style='color: greenyellow'>信用卡可用</p>"
+                    );
+                    $("#submitInput").prop('disabled', false);
+                }
+            }
+        })
+    }
+</script>
 </html>

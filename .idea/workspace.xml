@@ -7,26 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbfe4058-54ba-4d74-a071-7591c4de675c" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/Other/src/main/java/tools/CreditCardVerify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/NeedVerifyEmail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Print.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/js/html2canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/other/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/other/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/other/html2canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/other/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/src/main/webapp/static/other/jsPdf.debug.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/src/main/java/pojo/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Other/src/main/java/pojo/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/src/main/java/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Other/src/main/java/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/src/main/java/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Other/src/main/java/service/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/target/classes/dao/AccountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Other/target/classes/dao/AccountMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/target/classes/dao/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Other/target/classes/dao/AccountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/target/classes/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Other/target/classes/service/AccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/target/classes/service/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Other/target/classes/service/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/src/main/java/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/View/src/main/java/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/dao/AccountMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/dao/AccountMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/dao/PlushGoodsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/dao/PlushGoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/pojo/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/pojo/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/pojo/PlushGoods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/pojo/UAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/service/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/service/PlushGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/service/PlushGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/tools/MailTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/target/classes/tools/Page.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/View/src/main/java/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/View/src/main/java/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/ErrorPageForShop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/ErrorPageForShop.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Settlement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Settlement.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/classes/controller/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/Other-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/View/target/View/WEB-INF/lib/Other-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/target/classes/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/View/target/classes/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/target/classes/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/View/target/classes/controller/MainController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -99,93 +105,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/ErrorPageForShop.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Settlement.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="66" column="68" selection-start-line="66" selection-start-column="68" selection-end-line="66" selection-end-column="68" />
+            <state relative-caret-position="376">
+              <caret line="75" column="73" selection-start-line="75" selection-start-column="73" selection-end-line="75" selection-end-column="73" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/CreditCardVerify.java">
+        <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="61" column="45" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="45" />
+            <state relative-caret-position="216">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4409#4410#0" expanded="true" />
-                <element signature="e#4534#4535#0" expanded="true" />
-                <element signature="method#initMacKey#0;class#LoginController#0" />
-                <element signature="method#encryptHMAC#0;class#LoginController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/blog-post.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="41" column="57" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="164" column="4" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/NeedVerifyEmail.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Other/src/main/java/pojo/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-              <folding>
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,8 +136,82 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="36" column="117" selection-start-line="36" selection-start-column="117" selection-end-line="36" selection-end-column="117" />
+            <state relative-caret-position="363">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="61" column="45" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4341#4342#0" expanded="true" />
+                <element signature="e#4411#4412#0" expanded="true" />
+                <element signature="e#4462#4463#0" expanded="true" />
+                <element signature="e#4536#4537#0" expanded="true" />
+                <element signature="method#initMacKey#0;class#LoginController#0" />
+                <element signature="method#encryptHMAC#0;class#LoginController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/PlushGoodsMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/PlushGoodsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/src/main/webapp/static/other/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="179" column="15" selection-start-line="179" selection-start-column="15" selection-end-line="179" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Print.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-117">
+              <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/MailTo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,8 +221,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -260,8 +276,10 @@
         <option value="$PROJECT_DIR$/Other/src/main/java/pojo/Account.java" />
         <option value="$PROJECT_DIR$/View/src/main/java/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/NeedVerifyEmail.jsp" />
-        <option value="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Settlement.jsp" />
         <option value="$PROJECT_DIR$/Other/src/main/java/tools/CreditCardVerify.java" />
+        <option value="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/test.html" />
+        <option value="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Settlement.jsp" />
+        <option value="$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Print.jsp" />
         <option value="$PROJECT_DIR$/View/src/main/java/controller/MainController.java" />
       </list>
     </option>
@@ -314,8 +332,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="8" />
-    <option name="y" value="87" />
+    <option name="x" value="-12" />
+    <option name="y" value="-14" />
     <option name="width" value="1934" />
     <option name="height" value="993" />
   </component>
@@ -462,6 +480,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -520,7 +547,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/demo3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/View/src/main/webapp/static/other" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -530,21 +557,21 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java_project\Other\WebShop\Other\src\main\resources" />
-      <recent name="D:\java_project\Other\WebShop\View\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\java_project\Other\WebShop\Other\src\main\java\dao" />
-      <recent name="D:\java_project\Other\WebShop\View\src\main\webapp\WEB-INF" />
-      <recent name="D:\java_project\Other\WebShop\View\src\main\webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java_project\Other\WebShop\Other\src\main\java\tools" />
       <recent name="D:\java_project\Other\WebShop\View\src\main\webapp\WEB-INF\jsp\main" />
       <recent name="D:\java_project\Other\WebShop\View\src\main\webapp\WEB-INF\jsp" />
       <recent name="D:\java_project\Other\WebShop\View\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_project\Other\WebShop\View\src\main\webapp\static\other" />
+      <recent name="D:\java_project\Other\WebShop\View\src\main\webapp\static" />
+      <recent name="D:\java_project\Other\WebShop\View\src\main\webapp\WEB-INF\jsp\main" />
+      <recent name="D:\java_project\Other\WebShop\View\src\main\webapp\static\js" />
+      <recent name="D:\java_project\Other\WebShop\Other\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -674,7 +701,7 @@
       <workItem from="1598322293479" duration="3267000" />
       <workItem from="1598337251477" duration="21014000" />
       <workItem from="1598489889503" duration="30666000" />
-      <workItem from="1598778140727" duration="8069000" />
+      <workItem from="1598778140727" duration="16357000" />
     </task>
     <task id="LOCAL-00001" summary="half">
       <created>1597903543656</created>
@@ -816,17 +843,23 @@
       <option name="project" value="LOCAL" />
       <updated>1598758238912</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Test">
+      <created>1598848209639</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1598848209640</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94394000" />
+    <option name="totallyTimeSpent" value="102682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.40329835" visible="true" weight="0.15867944" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40329835" visible="true" weight="0.15867944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973376" />
       <window_info id="Learn" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -838,7 +871,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49840257" visible="true" weight="0.38297874" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49840257" visible="true" weight="0.34574467" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32978722" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -854,9 +887,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.13312034" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.13312034" />
       <window_info anchor="right" id="调色板" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.1368477" />
+      <window_info anchor="right" id="Database" order="5" weight="0.1368477" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.32960597" />
     </layout>
@@ -919,32 +952,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://0e7c1adc-40b1-4474-985d-e9bb63828aeb/schema/webshop/table/areas">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0e7c1adc-40b1-4474-985d-e9bb63828aeb/schema/webshop/table/zipcode">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0e7c1adc-40b1-4474-985d-e9bb63828aeb/schema/webshop/table/cities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3.jar!/redis/clients/jedis/JedisPoolConfig.class" />
-    <entry file="file://$PROJECT_DIR$/Other/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/src/main/resources/spring-redis.xml" />
     <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/RedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -987,13 +994,6 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2.jar!/javax/servlet/jsp/jstl/core/LoopTagSupport.class" />
-    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/tables.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="162" column="62" selection-start-line="162" selection-start-column="62" selection-end-line="162" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.jquery.com_jquery-3.5.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1025,28 +1025,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/charts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="142" column="37" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/src/main/resources/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/PlushGoodsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -1220,31 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/PlushGoodsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1256,13 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -1297,44 +1247,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/pricing.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/portfolio-2-col.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4400" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="das://0e7c1adc-40b1-4474-985d-e9bb63828aeb/schema/webshop/table/account">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="117" selection-start-line="36" selection-start-column="117" selection-end-line="36" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/ErrorPageForShop.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -1363,58 +1284,191 @@
     <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/NeedVerifyEmail.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/tables.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="162" column="62" selection-start-line="162" selection-start-column="62" selection-end-line="162" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/pricing.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/loginPage/ErrorPageForShop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/static/js/html2canvas.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/CreditCardVerify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Print.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2760">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/admin/charts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/service/PlushGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/PlushGoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/PlushGoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Settlement.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="75" column="73" selection-start-line="75" selection-start-column="73" selection-end-line="75" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/dao/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/static/other/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/MailTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="537">
           <caret line="61" column="45" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4409#4410#0" expanded="true" />
-            <element signature="e#4534#4535#0" expanded="true" />
+            <element signature="e#4341#4342#0" expanded="true" />
+            <element signature="e#4411#4412#0" expanded="true" />
+            <element signature="e#4462#4463#0" expanded="true" />
+            <element signature="e#4536#4537#0" expanded="true" />
             <element signature="method#initMacKey#0;class#LoginController#0" />
             <element signature="method#encryptHMAC#0;class#LoginController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Settlement.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="66" column="68" selection-start-line="66" selection-start-column="68" selection-end-line="66" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/MailTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/src/main/java/tools/CreditCardVerify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/src/main/java/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="164" column="4" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
+        <state relative-caret-position="257">
+          <caret line="179" column="15" selection-start-line="179" selection-start-column="15" selection-end-line="179" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/src/main/webapp/WEB-INF/jsp/main/Print.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
         </state>
       </provider>
     </entry>
