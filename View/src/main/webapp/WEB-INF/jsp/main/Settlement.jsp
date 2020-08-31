@@ -56,12 +56,13 @@
                 </tr>
             </table>
         </div>
-        <form action="conformShop" method="post">
+        <form action="conformShop" method="post" onsubmit="return submitC()">
             <div class="col-lg-6">
                 <div class="col-lg-6">
                     ! 请认真核对 !
                     地址:
-                    <input type="text" placeholder="${ uList.uAddress }" name="uAddress">
+                    <input type="text" placeholder="${ uList.uAddress }" name="uAddress" id="uAddress">
+                    <span id="AddressSpan"></span>
                     联系方式:
                     <input type="email" placeholder="${ uList.uEmail }" name="uEmail">
                     姓名:
@@ -70,13 +71,13 @@
                 <div class="col-lg-6">
                     支付方式:
                     信用卡号:
-                    <input id="cardNumber" type="text" value="${ uList.uCreditCard }" onblur="jQuery:creditCard()"
+                    <input id="cardNumber" type="text" value="${ uList.uCreditCard }" onblur="creditCard()"
                            name="uCreditCard">
                     <span id="CardSpan"></span>
                     <div style="display: none">
                         <input type="text" name="pId" value="${ pList.gId }">
                     </div>
-                    <input type="submit" value="提交订单" id="submitInput">
+                    <input type="submit" value="提交订单" id="submitInput" onclick="submitC()">
                 </div>
             </div>
         </form>
@@ -97,11 +98,23 @@
         }
     });
 
+    function submitC() {
+        var $uAddress = $(" input[ id='uAddress' ]").val();
+        var $cardNumber = $(" input[ id='cardNumber' ]").val();
+        if (!$uAddress) {
+            $("#AddressSpan").text("请填写收货地址");
+            return false;
+        } else if (!$cardNumber) {
+            $("#CardSpan").text("信用卡号不可为空");
+            return false;
+        }
+    }
+
     function creditCard() {
         var $CardNumber = $(" input[ id='cardNumber' ]").val();
-        if ($CardNumber == null) {
-            $("#submitInput").prop('disabled', true);
-            return;
+        if (!$CardNumber) {
+            $("#CardSpan").text("信用卡号不可为空");
+            return false;
         }
         var formData = new FormData();
         formData.append("CardNumber", $CardNumber);
@@ -111,17 +124,13 @@
             data: formData,
             processData: false,
             contentType: false,
-            success: function (data) {
-                console.log(data);
-                if (num != 1) {
-                    $("#CardSpan").append(
-                        "<p style='color: red'>信用卡号不正确</p>"
-                    );
+            success: function (num) {
+                console.log(num);
+                if (num != "1") {
+                    $("#CardSpan").text("信用卡号不正确");
                     $("#submitInput").prop('disabled', true);
                 } else {
-                    $("#CardSpan").append(
-                        "<p style='color: greenyellow'>信用卡可用</p>"
-                    );
+                    $("#CardSpan").text("信用卡可用");
                     $("#submitInput").prop('disabled', false);
                 }
             }

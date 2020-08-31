@@ -5,6 +5,7 @@
 
 package controller;
 
+import com.alibaba.fastjson.JSONArray;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -172,6 +173,12 @@ public class MainController {
         stringBuffer.append(rNum);
 
         Account account;
+        if (("").equals(uName) || uName == null) {
+            String userEmail = (String) session.getAttribute("uEmail");
+            account = accountService.SelectSessionUser(userEmail);
+        } else {
+            account = accountService.SelectSessionUser(usEmail);
+        }
         if (("").equals(usEmail) || usEmail == null) {
             String userEmail = (String) session.getAttribute("uEmail");
             account = accountService.SelectSessionUser(userEmail);
@@ -179,6 +186,7 @@ public class MainController {
             account = accountService.SelectSessionUser(usEmail);
         }
         PlushGoods plushGoods = plushGoodsService.selectOne(pId);
+        account.setuAddress(uAddress);
 
         String CodeForBuy = RandomStringUtils.randomAlphanumeric(20);
 
@@ -194,8 +202,8 @@ public class MainController {
     @RequestMapping("CreditCardVerify")
     public Object CreditCard(String CardNumber) {
         CreditCardVerify creditCardVerify = new CreditCardVerify();
-        int num = creditCardVerify.CreditCard(Integer.parseInt(CardNumber));
-        return num;
+        Integer num = creditCardVerify.CreditCard(CardNumber);
+        return JSONArray.toJSONString(num);
     }
 
 //    @RequestMapping("ErrorPageForShop")

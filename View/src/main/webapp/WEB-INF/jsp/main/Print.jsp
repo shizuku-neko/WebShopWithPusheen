@@ -119,10 +119,10 @@
                 //有两个高度需要区分，一个是html页面的实际高度，和生成pdf的页面高度(841.89)
                 //当内容未超过pdf一页显示的范围，无需分页
                 if (leftHeight < pageHeight) {
-                    pdf.addImage(pageData, 'JPEG', 20, 0, imgWidth, imgHeight);
+                    pdf.addImage(pageData, 'PNG', 20, 0, imgWidth, imgHeight);
                 } else {
                     while (leftHeight > 0) {
-                        pdf.addImage(pageData, 'JPEG', 20, position, imgWidth, imgHeight);
+                        pdf.addImage(pageData, 'PNG', 20, position, imgWidth, imgHeight);
                         leftHeight -= pageHeight;
                         position -= 841.89;
                         //避免添加空白页

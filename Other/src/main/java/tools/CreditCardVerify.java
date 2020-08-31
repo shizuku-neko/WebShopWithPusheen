@@ -1,20 +1,30 @@
 package tools;
 
 public class CreditCardVerify {
-    public Integer CreditCard(Integer CreditCard) {
-        String S = CreditCard.toString();
-        int sum1 = 0, sum2 = 0;
-        for (int i = S.length() - 1, j = 1; i >= 0; i--, j++) {
-            if (j % 2 == 1)
-                sum1 = sum1 + (S.charAt(i) - '0');
-            else {
-                int temp = (S.charAt(i) - '0') * 2;
-                if (temp >= 10)
-                    temp = temp - 9;
-                sum2 = sum2 + temp;
+    public Integer CreditCard(String CreditCard) {
+        char[] chars = CreditCard.toCharArray();
+        int odd = 0;
+        int even = 0;
+        for (int i = chars.length - 1; i >= 0; ) {
+            //把字符转化成int，先调用抽象方法，放回String，在把String转换为int，或者是强转，但是字符只能为1位
+            odd += Integer.parseInt(String.valueOf(chars[i]));
+            //如果大于10
+            //当前偶数
+            //如果当前为最后一位,偶数啥事不干
+            if (i == 0) {
+
+            } else {
+                int currEven = Integer.parseInt(String.valueOf(chars[i - 1]));
+                //如果当前偶数的两倍>=10
+                if (currEven * 2 >= 10) {
+                    even += currEven * 2 - 9;
+                } else {
+                    even += currEven * 2;
+                }
             }
+            i -= 2;
         }
-        if ((sum1 + sum2) % 10 == 0) {
+        if ((even + odd) % 10 == 0) {
             return 1;
         } else {
             return -1;
