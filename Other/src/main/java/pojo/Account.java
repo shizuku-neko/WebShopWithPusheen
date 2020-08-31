@@ -12,6 +12,15 @@ public class Account {
     private String uPwd;
     private String uAddress;
     private String uCreditCard;
+    private Integer verify;
+
+    public Integer getVerify() {
+        return verify;
+    }
+
+    public void setVerify(Integer verify) {
+        this.verify = verify;
+    }
 
     public Account() {
     }

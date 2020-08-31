@@ -20,4 +20,22 @@
         SET Verify = 1
         WHERE UEmail = #{ uEmail }
     </update>
+
+    <update id="InsertUserCreditCard">
+        UPDATE webshop.account
+        SET UCreditCard = #{ uCreditCard }
+        WHERE UEmail = #{ uEmail }
+    </update>
+
+    <update id="InsertUserAddress">
+        UPDATE webshop.account
+        SET UAddress = #{ uAddress }
+        WHERE UEmail = #{ uEmail }
+    </update>
+
+    <select id="SelectSessionUser" resultType="Account">
+        SELECT uid, uname, uemail, upwd, uaddress, ucreditcard, verify
+        FROM webshop.account
+        WHERE UEmail = #{ uEmail }
+    </select>
 </mapper>

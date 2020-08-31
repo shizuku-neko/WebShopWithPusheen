@@ -7,6 +7,7 @@ package service;
 
 import dao.AccountMapper;
 import org.springframework.stereotype.Service;
+import pojo.Account;
 
 import javax.annotation.Resource;
 
@@ -29,5 +30,20 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public Integer UpdateVerifyUser(String var1) {
         return this.accountMapper.UpdateVerifyUser(var1);
+    }
+
+    @Override
+    public Integer InsertUserCreditCard(String var1, String var2) {
+        return this.accountMapper.InsertUserCreditCard(var1, var2);
+    }
+
+    @Override
+    public Integer InsertUserAddress(String var1, String var2) {
+        return this.accountMapper.InsertUserAddress(var1, var2);
+    }
+
+    @Override
+    public Account SelectSessionUser(String var1) {
+        return this.accountMapper.SelectSessionUser(var1);
     }
 }

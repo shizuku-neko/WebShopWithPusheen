@@ -9,7 +9,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import pojo.Account;
 import pojo.PlushGoods;
+import service.AccountService;
 import service.PlushGoodsService;
 
 import javax.annotation.Resource;
@@ -20,6 +22,9 @@ import java.util.List;
 public class MainController {
     @Resource
     PlushGoodsService plushGoodsService;
+
+    @Resource
+    AccountService accountService;
 
     public MainController() {
     }
@@ -136,14 +141,29 @@ public class MainController {
         if (uEmail == null || ("").equals(uEmail)) {
             return "loginPage/ErrorPageForShop";
         }
+        Account account = this.accountService.SelectSessionUser(uEmail);
+        if (0 == account.getVerify()) {
+            model.addAttribute("uList", account);
+            return "loginPage/NeedVerifyEmail";
+        }
+        if ("".equals(account.getuAddress()) || account.getuAddress() == null) {
+            account.setuAddress("请填写收货地址");
+        }
         PlushGoods plushGoods = this.plushGoodsService.selectOne(id);
         System.err.println(plushGoods.getgIntroduction());
-        model.addAttribute("list", plushGoods);
+        model.addAttribute("pList", plushGoods);
+        model.addAttribute("uList", account);
         return "main/Settlement";
     }
 
     @RequestMapping("conformShop")
     public String ConformShop() {
+
+        return "";
+    }
+
+    @RequestMapping("")
+    public Object CreditCardVerify() {
 
         return "";
     }

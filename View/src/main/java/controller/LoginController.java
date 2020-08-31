@@ -51,11 +51,25 @@ public class LoginController {
         String verifyInRedis = jedis.get(verifyEmail);
         if (verifyCode.equals(verifyInRedis)) {
             jedis.del(verifyEmail);
-            accountService.UpdateVerifyUser(verifyEmail);
+            int num = accountService.UpdateVerifyUser(verifyEmail);
             return "loginPage/configReg";
         } else {
             return "loginPage/configError";
         }
+    }
+
+    @RequestMapping({"reVerify"})
+    public String ReVerify(String verifyEmail) {
+        jedis = new Jedis(info);
+        jedis.select(0);
+        try {
+            jedis.del(verifyEmail);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        RegMail regMail = new RegMail();
+        regMail.EmailTo(verifyEmail);
+        return "loginPage/index";
     }
 
     @RequestMapping({"loginVerify"})
