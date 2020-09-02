@@ -44,7 +44,7 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Get the latest goods information the first time</li>
                     <li class="list-group-item">Irregular discount</li>
-                    <%--                    <li class="list-group-item">null</li>--%>
+                    <li class="list-group-item">coming soon...</li>
                     <li class="list-group-item">
                         <a href="#" class="btn btn-primary">Sign Up!</a>
                     </li>

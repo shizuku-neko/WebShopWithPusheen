@@ -14,10 +14,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import pojo.PlushGoods;
+import service.AdminService;
 import service.PlushGoodsService;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
@@ -29,6 +31,9 @@ import java.util.Random;
 public class BackController {
     @Resource
     PlushGoodsService plushGoodsService;
+
+    @Resource
+    AdminService adminService;
 
     public BackController() {
     }
@@ -49,42 +54,65 @@ public class BackController {
     }
 
     @RequestMapping({"admincharts"})
-    public String charts() {
+    public String charts(HttpSession session) {
+        if (session.getAttribute("aId") == "" || session.getAttribute("aId") == null) {
+            return "admin/login";
+        }
         return "admin/charts";
     }
 
     @RequestMapping({"adminindex"})
-    public String index() {
+    public String index(HttpSession session) {
+        if (session.getAttribute("aId") == "" || session.getAttribute("aId") == null) {
+            return "admin/login";
+        }
         return "admin/index";
     }
 
     @RequestMapping({"adminlayout-sidenav-light"})
-    public String layout_sidenav_light() {
+    public String layout_sidenav_light(HttpSession session) {
+        if (session.getAttribute("aId") == "" || session.getAttribute("aId") == null) {
+            return "admin/login";
+        }
         return "admin/layout-sidenav-light";
     }
 
     @RequestMapping({"adminlayout-static"})
-    public String layout_static() {
+    public String layout_static(HttpSession session) {
+        if (session.getAttribute("aId") == "" || session.getAttribute("aId") == null) {
+            return "admin/login";
+        }
         return "admin/layout-static";
     }
 
     @RequestMapping({"adminlogin"})
-    public String login() {
+    public String Login(HttpSession session) {
+        session.removeAttribute("aId");
         return "admin/login";
+    }
+
+    @RequestMapping({"backLogin"})
+    public String BackLogin(String aId, String aPwd, HttpSession session) {
+        int num = adminService.LoginAdmin(aId, aPwd);
+        if (num != 0) {
+            session.setAttribute("aId", aId);
+            return "admin/index";
+        } else {
+            return "admin/login";
+        }
     }
 
     @RequestMapping({"adminpassword"})
     public String password() {
+
         return "admin/password";
     }
 
-    @RequestMapping({"adminregister"})
-    public String register() {
-        return "admin/register";
-    }
-
     @RequestMapping({"admintables"})
-    public String tables(Model model) {
+    public String tables(Model model, HttpSession session) {
+        if (session.getAttribute("aId") == "" || session.getAttribute("aId") == null) {
+            return "admin/login";
+        }
         List<PlushGoods> list = this.plushGoodsService.listAllPlushGoods();
         System.err.println(list.size() + ((PlushGoods) list.get(0)).getgIntroduction());
         model.addAttribute("list", list);
