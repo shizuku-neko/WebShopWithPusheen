@@ -28,7 +28,7 @@ public class MailTo {
         MimeMessage message = new MimeMessage(session);
 
         try {
-            message.setFrom(new InternetAddress("ShizukuNekos@gmail.com", "Shizuku_neko", "UTF-8"));
+            message.setFrom(new InternetAddress("example@domain", "password", "UTF-8"));
             message.setRecipient(RecipientType.TO, new InternetAddress(ToUserEmail, UName, "UTF-8"));
             message.setSubject("邮箱验证", "UTF-8");
             message.setContent("请点击下方链接以验证您的邮箱,如果不是您本人注册,请忽略.", "text/html;charset=UTF-8");

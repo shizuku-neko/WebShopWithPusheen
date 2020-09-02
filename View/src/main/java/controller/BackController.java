@@ -55,6 +55,7 @@ public class BackController {
 
     @RequestMapping({"admincharts"})
     public String charts(HttpSession session) {
+        // 验证session是否有登录的账户
         if (session.getAttribute("aId") == "" || session.getAttribute("aId") == null) {
             return "admin/login";
         }
@@ -63,6 +64,7 @@ public class BackController {
 
     @RequestMapping({"adminindex"})
     public String index(HttpSession session) {
+        // 验证session是否有登录的账户
         if (session.getAttribute("aId") == "" || session.getAttribute("aId") == null) {
             return "admin/login";
         }
@@ -70,6 +72,7 @@ public class BackController {
     }
 
     @RequestMapping({"adminlayout-sidenav-light"})
+    // 验证session是否有登录的账户
     public String layout_sidenav_light(HttpSession session) {
         if (session.getAttribute("aId") == "" || session.getAttribute("aId") == null) {
             return "admin/login";
@@ -79,6 +82,7 @@ public class BackController {
 
     @RequestMapping({"adminlayout-static"})
     public String layout_static(HttpSession session) {
+        // 验证session是否有登录的账户
         if (session.getAttribute("aId") == "" || session.getAttribute("aId") == null) {
             return "admin/login";
         }
@@ -87,15 +91,24 @@ public class BackController {
 
     @RequestMapping({"adminlogin"})
     public String Login(HttpSession session) {
-        session.removeAttribute("aId");
         return "admin/login";
     }
 
+    @RequestMapping({"loginOut"})
+    public String LoginOut(String aId, HttpSession session) {
+        // 用户登出,删除此用户的session记录
+        session.removeAttribute(aId);
+        return "redirect:/adminlogin";
+    }
+
     @RequestMapping({"backLogin"})
-    public String BackLogin(String aId, String aPwd, HttpSession session) {
+    public String BackLogin(String aId, String aPwd, HttpSession session, Model model) {
+        // 查询是否有此用户
         int num = adminService.LoginAdmin(aId, aPwd);
         if (num != 0) {
+            // session添加此用户邮箱,以做验证
             session.setAttribute("aId", aId);
+            model.addAttribute("aId", aId);
             return "admin/index";
         } else {
             return "admin/login";
@@ -110,11 +123,12 @@ public class BackController {
 
     @RequestMapping({"admintables"})
     public String tables(Model model, HttpSession session) {
+        // 验证session是否有登录的账户
         if (session.getAttribute("aId") == "" || session.getAttribute("aId") == null) {
             return "admin/login";
         }
         List<PlushGoods> list = this.plushGoodsService.listAllPlushGoods();
-        System.err.println(list.size() + ((PlushGoods) list.get(0)).getgIntroduction());
+//        System.err.println(list.size() + ((PlushGoods) list.get(0)).getgIntroduction());
         model.addAttribute("list", list);
         return "admin/tables";
     }
