@@ -22,8 +22,8 @@ public class RegMail {
 
     public void EmailTo(String uEmail) {
 
-        final String username = "Shizukunekos@gmail.com";
-        final String password = "zaq1056519523";
+        final String username = "mailName@Gmail.com";
+        final String password = "mailPwd";
 
         Properties prop = System.getProperties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
