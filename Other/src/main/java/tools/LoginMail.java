@@ -22,8 +22,8 @@ public class LoginMail {
 
     public void EmailTo(String uEmail) {
 
-        final String username = "Shizukunekos@gmail.com";
-        final String password = "zaq1056519523";
+        final String username = "MailName@gmail.com";
+        final String password = "MailPwd";
 
         Properties prop = System.getProperties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
