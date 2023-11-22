@@ -49,11 +49,11 @@
                 <br>
             </p>
             <p>
-                <abbr title="Phone">P</abbr>: (+86)15505166380
+                <abbr title="Phone">P</abbr>: (+1) 864-777-9606
             </p>
             <p>
                 <abbr title="Email">E</abbr>:
-                <a href="mailto:zaq1056519523@gmail.com">zaq1056519523@gmail.com
+                <a href="mailto:neko@neko.lc">neko@neko.lv
                 </a>
             </p>
             <p>
