@@ -35,17 +35,16 @@
         <div class="col-lg-8 mb-4">
             <!-- Embedded Google Map -->
             <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.0704960159314!2d117.1931305239811!3d34.24674475604742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa2be4f9bc4976d2!2z5YyX5aSn6Z2S6bif5Lit5Y2a6L2v5Lu25a2m6Zmi!5e0!3m2!1szh-CN!2sus!4v1597024455370!5m2!1szh-CN!2sus"
+                    src=""
                     style="width: 100%; height: 400px; border: 0;"></iframe>
             <%--            <iframe style="width: 100%; height: 400px; border: 0;"--%>
-            <%--                    src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>--%>
+            <%--                    src=""></iframe>--%>
         </div>
         <!-- Contact Details Column -->
         <div class="col-lg-4 mb-4">
             <h3>Contact Details</h3>
             <p>
-                解放路 解放南路181号 (221009)
-                <br>中国 江苏省 徐州市 云龙区
+                <br>中国
                 <br>
             </p>
             <p>
@@ -53,7 +52,7 @@
             </p>
             <p>
                 <abbr title="Email">E</abbr>:
-                <a href="mailto:neko@neko.lc">neko@neko.lv
+                <a href="mailto:neko@neko.lv">neko@neko.lv
                 </a>
             </p>
             <p>
